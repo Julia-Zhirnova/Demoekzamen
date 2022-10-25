@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\App.xaml
-3513596336
+61773564265
 2-1223955081
-15-1360609133
+19-1722211119
 19-910032666
-Pages\Admin.xaml;Pages\Login.xaml;Windows\MainAutoserviceWindow.xaml;
+Pages\Admin.xaml;Pages\Administrator.xaml;Pages\Login.xaml;Pages\Prodavec.xaml;Pages\StarshiiSmen.xaml;Windows\MainAutoserviceWindow.xaml;
 
-False
+True
 
