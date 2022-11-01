@@ -93,3 +93,5 @@ D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipe
 D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CoreCompileInputs.cache
 D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.exe
 D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.pdb
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.SuggestedBindingRedirects.cache
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CopyComplete

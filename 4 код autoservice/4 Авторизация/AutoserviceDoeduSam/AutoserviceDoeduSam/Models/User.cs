@@ -19,6 +19,7 @@ namespace AutoserviceDoeduSam.Models
         public string Password { get; set; }
         public int IdRole { get; set; }
         public string Name { get; set; }
+        public string PhotoPath { get; set; }
     
         public virtual Role Role { get; set; }
     }

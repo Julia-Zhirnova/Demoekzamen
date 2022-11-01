@@ -9,11 +9,35 @@
       Title="Admin">
 
     <Grid>
+        <ListView Grid.Row="1"  Name="LViewService"
+                  HorizontalContentAlignment="Left">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Image>
+                        <Image.Source>
+                            <Binding Path="PhotoPath"></Binding>
+                        </Image.Source>
+                    </Image>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Image>
+            <Image.Source>
+                <Binding Path="PhotoPath"></Binding>
+            </Image.Source>
+        </Image>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock> Введите логин:</TextBlock>
+           
+                        
+
+                            <TextBlock> Введите логин:</TextBlock>
             <TextBox Name="TxbLogin" ></TextBox>
-            <TextBlock> Введите пароль:</TextBlock> 
-            <PasswordBox Name="PsbPassword" ></PasswordBox>
+            <TextBlock> Введите пароль:</TextBlock>
+            
+                <TextBox Name="TxbPassword" Width="370" Visibility="Collapsed" ></TextBox>
+                <PasswordBox Name="PsbPassword"  Width="370" ></PasswordBox>
+            <TextBlock Text="Show Password" x:Name="TbxShowPass" MouseDown="TbxShowPass_MouseDown" MouseUp="TbxShowPass_MouseUp" ></TextBlock>
+                        
             <StackPanel Orientation="Horizontal">
                 <Button Name="BtnInLogin" Click="BtnInLogin_Click">Войти</Button>
                 <Button Name="BtnRegIn" Click="BtnRegIn_Click">Регистрация</Button>

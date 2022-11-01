@@ -73,5 +73,18 @@ namespace AutoserviceDoeduSam.Pages
         {
 
         }
+
+        private void TbxShowPass_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TxbPassword.Visibility = Visibility.Visible;
+            PsbPassword.Visibility = Visibility.Collapsed;
+            TxbPassword.Text = PsbPassword.Password;
+        }
+
+        private void TbxShowPass_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            TxbPassword.Visibility = Visibility.Collapsed;
+            PsbPassword.Visibility = Visibility.Visible;
+        }
     }
 }
