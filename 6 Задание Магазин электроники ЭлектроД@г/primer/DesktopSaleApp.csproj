@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91B2A8D2-6772-42A4-9359-D4B21C87B9BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DesktopSaleApp</RootNamespace>
+    <AssemblyName>DesktopSaleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Manager.xaml.cs">
+      <DependentUpon>Manager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Categorys.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PointsOfSale.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PriceListTable.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Roles.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Storages.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UsersTable.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SaleWindow.xaml.cs">
+      <DependentUpon>SaleWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StoreKeeper.xaml.cs">
+      <DependentUpon>StoreKeeper.xaml</DependentUpon>
+    </Compile>
+    <Page Include="HelloWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DbConnect.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="HelloWindow.xaml.cs">
+      <DependentUpon>HelloWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Manager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SaleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StoreKeeper.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logo.ico" />
+    <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icons8-корзина-2-48.png" />
+    <Resource Include="Resources\icons8-крестик-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add.png" />
+    <Resource Include="Resources\back.png" />
+    <Resource Include="Resources\csv.png" />
+    <Resource Include="Resources\edit.png" />
+    <Resource Include="Resources\enter.png" />
+    <Resource Include="Resources\logout.png" />
+    <Resource Include="Resources\next.png" />
+    <Resource Include="Resources\previous.png" />
+    <Resource Include="Resources\remove.png" />
+    <Resource Include="Resources\show-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Photos\АвдеевАЕ.jpg" />
+    <Resource Include="Resources\Photos\АнисимовИА.jpg" />
+    <Resource Include="Resources\Photos\АрхиповаДИ.jpg" />
+    <Resource Include="Resources\Photos\БеляковМЭ.jpg" />
+    <Resource Include="Resources\Photos\ВороноваМП.jpg" />
+    <Resource Include="Resources\Photos\ГореловМИ.jpg" />
+    <Resource Include="Resources\Photos\ГоршковДК.png" />
+    <Resource Include="Resources\Photos\ГригорьеваПЗ.jpg" />
+    <Resource Include="Resources\Photos\ГригорьевРК.jpg" />
+    <Resource Include="Resources\Photos\ГусеваВД.png" />
+    <Resource Include="Resources\Photos\ДаниловаЭВ.png" />
+    <Resource Include="Resources\Photos\ЕгороваВН.png" />
+    <Resource Include="Resources\Photos\ЕрмоловММ.jpg" />
+    <Resource Include="Resources\Photos\ЕфремовАС.jpg" />
+    <Resource Include="Resources\Photos\ЗиминаММ.jpg" />
+    <Resource Include="Resources\Photos\КалининаАН.png" />
+    <Resource Include="Resources\Photos\КирилловАФ.jpg" />
+    <Resource Include="Resources\Photos\КиселевВГ.jpg" />
+    <Resource Include="Resources\Photos\КозловКП.jpg" />
+    <Resource Include="Resources\Photos\КондратьеваАА.png" />
+    <Resource Include="Resources\Photos\КорнеевАК.jpg" />
+    <Resource Include="Resources\Photos\КоролеваДМ.jpg" />
+    <Resource Include="Resources\Photos\КоролевММ.png" />
+    <Resource Include="Resources\Photos\КоротковаВГ.jpg" />
+    <Resource Include="Resources\Photos\КрасноваПМ.png" />
+    <Resource Include="Resources\Photos\КудрявцевФД.jpg" />
+    <Resource Include="Resources\Photos\ЛебедеваЯМ.jpg" />
+    <Resource Include="Resources\Photos\ЛеоновМК.jpg" />
+    <Resource Include="Resources\Photos\ЛобановаТЕ.jpg" />
+    <Resource Include="Resources\Photos\ЛосевНД.jpg" />
+    <Resource Include="Resources\Photos\МайороваCC.jpg" />
+    <Resource Include="Resources\Photos\МедведеваНА.png" />
+    <Resource Include="Resources\Photos\МироновАД.jpg" />
+    <Resource Include="Resources\Photos\НикитинАД.jpg" />
+    <Resource Include="Resources\Photos\ПетроваВА.jpg" />
+    <Resource Include="Resources\Photos\ПетроваВА.png" />
+    <Resource Include="Resources\Photos\ПетроваОГ.jpg" />
+    <Resource Include="Resources\Photos\ПономаревПД.png" />
+    <Resource Include="Resources\Photos\СафроновДА.jpg" />
+    <Resource Include="Resources\Photos\СеменоваВА.jpg" />
+    <Resource Include="Resources\Photos\СмирновМГ.jpg" />
+    <Resource Include="Resources\Photos\СоколовАА.jpg" />
+    <Resource Include="Resources\Photos\СпиридоновДС.jpg" />
+    <Resource Include="Resources\Photos\СычевГМ.jpg" />
+    <Resource Include="Resources\Photos\ТерентьеваАИ.jpg" />
+    <Resource Include="Resources\Photos\ТихомировМА.jpg" />
+    <Resource Include="Resources\Photos\ФокинаАА.png" />
+    <Resource Include="Resources\Photos\ФоминаЕД.png" />
+    <Resource Include="Resources\Photos\ЩербаковЛД.png" />
+    <Resource Include="Resources\Photos\ЩербаковСЕ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

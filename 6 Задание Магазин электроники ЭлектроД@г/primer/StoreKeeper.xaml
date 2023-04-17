@@ -1,0 +1,60 @@
+﻿<Window x:Class="DesktopSaleApp.StoreKeeper"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopSaleApp"
+        mc:Ignorable="d"
+        Title="StoreKeeper" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListView Background="#FFEAEAEA" VerticalAlignment="Top" Margin="10" Height="650" Width="auto" HorizontalAlignment="Left" Name="ItemsView" SelectionChanged="ItemsView_SelectionChanged">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Background="#FFFEFFB7" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                        <Label VerticalAlignment="Center" Content="N:"></Label>
+                        <TextBlock Name="NumberBox" VerticalAlignment="Center" Text="{Binding ItemID}"/>
+                        <Label  VerticalAlignment="Center" Content="Артикул:"></Label>
+                        <TextBlock  VerticalAlignment="Center" Text="{Binding Article}"/>
+
+                        <TextBlock  VerticalAlignment="Center" Text="{Binding ItemName}"/>
+
+                        <TextBlock  VerticalAlignment="Center"  Text="{Binding StorageID}" Loaded="OnTextBlockLoaded"/>
+
+                        <TextBlock  VerticalAlignment="Center" Text="{Binding Count}"/>
+                        <Label VerticalAlignment="Center" Content="Цена за 1шт:"></Label>
+                        <TextBlock  VerticalAlignment="Center" Text="{Binding Cost, StringFormat='{}{0:F2} ₽'}"/>
+                        <Label VerticalAlignment="Center" Content="Артикул:"></Label>
+                        <TextBlock  VerticalAlignment="Center" Text="{Binding CategoryID}" Loaded="TextBlock_LoadedCategory"/>
+                        <Button VerticalAlignment="Center" Click="Button_AddToCart" Cursor="Hand"  Width="60" Height="40">
+                            <Button.Background>
+                                <ImageBrush  ImageSource="/Resources/icons8-корзина-2-48.png" Stretch="UniformToFill"/>
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="1" Width="auto" Name="FIOPanel"  Margin="5" Background="#FFEAEAEA" HorizontalAlignment="Left">
+            <Label Content="ФИО" HorizontalAlignment="Center" Margin="5"></Label>
+            <TextBlock Name="FIOBoxxxxx" Background="#FFFEFFB7" Width="250"></TextBlock>
+            <Label Content="Роль" HorizontalAlignment="Center"></Label>
+            <TextBlock Name="RoleBoxUser" Background="#FFFEFFB7" Margin="5"  Width="250"></TextBlock>
+            <Label Content="Время работы" HorizontalAlignment="Center"></Label>
+            <TextBlock Name="WorkingTimer" Background="#FFFEFFB7" Margin="5"  Width="250"></TextBlock>
+            <Image Name="UserPhoto" Width="100" Height="100" HorizontalAlignment="Left" Margin="5"></Image>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right">
+            <Button Width="30"  Margin="20" Grid.Column="1"  x:Name="Descripton" Content="" Height="30" Click="Descripton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resources/logout.png"/>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Window>
