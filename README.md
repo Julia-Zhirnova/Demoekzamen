@@ -19,6 +19,9 @@ git:http://192.168.1.20
 ![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/bd59935f-98e6-4a37-8321-ccb982582b7d)
 ![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/54cd5eea-b473-4372-a2d9-ab41454528d2)
 
+Выложить через git bash (localhost менять на 192.168.1.20:3000)
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/69300585-39ad-4ea5-8fbc-07e81c72c320)
+
 Дополнительно, если будет в задании
 1. Открыть Visio и проверить диаграммы
 2. Открыть библиотеку классов и подключить тесты
