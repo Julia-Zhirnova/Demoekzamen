@@ -52,3 +52,4 @@ https://docs.google.com/document/d/1x32fZ-GyT_15oGOX7stzYqsTbsleCrxMM63ytzmiA00/
 3. Пустые папки с проектами в C:\Users\Администратор\source\repos и C:\Users\Администратор\PycharmProjects
 4. Пустая корзина
 5.  git config --global user.name "user10" проверить пользователя в гит баш
+6.  Очистить историю
