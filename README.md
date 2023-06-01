@@ -1,6 +1,10 @@
 # Demoekzamen
 Здесь собраны задания и код для подготовки к демонстрационному экзамену
+
+## Инструкция для администратора
 https://docs.google.com/document/d/1x32fZ-GyT_15oGOX7stzYqsTbsleCrxMM63ytzmiA00/edit
+
+## Обязательно проверить это оборудование
 1. Открыть папку с заданием и все файлы в ней. Должен открываться pdf файл, вордовский файл, эксель, картинки и иконка
 2. Открыть базу данных и войти под своим логином и паролем, проверить, что есть доступ к созданию бд
 3. Открыть WPF и проверить подключение к БД
@@ -18,17 +22,33 @@ git:http://192.168.1.20
 Пароль: пароль от gogs
 ![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/bd59935f-98e6-4a37-8321-ccb982582b7d)
 ![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/54cd5eea-b473-4372-a2d9-ab41454528d2)
-
-Выложить через git bash (localhost менять на 192.168.1.20:3000)
-![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/69300585-39ad-4ea5-8fbc-07e81c72c320)
-
 Дополнительно, если будет в задании
 1. Открыть Visio и проверить диаграммы
 2. Открыть библиотеку классов и подключить тесты
 3. Проверить эмулятор Android studio
+
+## Инструкция по работе с gogs
+### Выложить через git bash (localhost менять на 192.168.1.20:3000)
+если ошиблись, то поменять
+    git remote set-url origin http://192.168.1.20:3000/Alibekov_MM/TestGit
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/69300585-39ad-4ea5-8fbc-07e81c72c320)
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/7d824246-a426-47e1-9bd0-48ab4b712fd1)
+Думает примерно 2 минуты
+### Добавление через архив
+На папку с проектом ПКМ 7-zip добавить в архив ок
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/1f9a4550-b61d-4189-988f-472d9a10c243)
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/d523bdd3-6a08-418d-a493-3d52533fd647)
+обязательно ставить галочку у инициализировать шаблонами
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/fa346dca-3656-40c2-bd82-0f493711a78d)
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/0a86212b-d6ed-4bf0-8716-f78a972bc3e8)
+Кнопка загрузить файлы - перетаскиваем - фиксируем изменения (Думает примерно 2 минуты)
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/48892a85-4211-4be5-aa34-664348ce9619)
+
+
 
 Проверка ПК:
 1. Чистый рабочий стол
 2. Пустые загрузки, видео, изображения
 3. Пустые папки с проектами в C:\Users\Администратор\source\repos и C:\Users\Администратор\PycharmProjects
 4. Пустая корзина
+5.  git config --global user.name "user10" проверить пользователя в гит баш
