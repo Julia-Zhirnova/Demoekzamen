@@ -1,6 +1,6 @@
 # Demoekzamen
 Здесь собраны задания и код для подготовки к демонстрационному экзамену
-
+проверка
 ## Инструкция для администратора
 https://docs.google.com/document/d/1x32fZ-GyT_15oGOX7stzYqsTbsleCrxMM63ytzmiA00/edit
 
