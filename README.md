@@ -1,5 +1,6 @@
 # Demoekzamen
 Здесь собраны задания и код для подготовки к демонстрационному экзамену
+Настройка GitBach: git config --global http.proxy 10.0.50.52:3128
 проверка
 ## Инструкция для администратора
 https://docs.google.com/document/d/1x32fZ-GyT_15oGOX7stzYqsTbsleCrxMM63ytzmiA00/edit
