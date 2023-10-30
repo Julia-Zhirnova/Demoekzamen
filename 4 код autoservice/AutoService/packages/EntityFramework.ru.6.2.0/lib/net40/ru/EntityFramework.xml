@@ -8905,18 +8905,17 @@
     </member>
     <member name="M:System.Data.Entity.Core.EntityClient.EntityDataReader.GetName(System.Int32)">
       <summary>Возвращает имя столбца, если известен его порядковый номер (от нуля).</summary>
-      <returns>Имя заданного столбца.</returns>
+      <returns>И�System.Type" />, описывающий тип данных указанного столбца.</returns>
       <param name="ordinal">Порядковый номер столбца (от нуля).</param>
     </member>
-    <member name="M:System.Data.Entity.Core.EntityClient.EntityDataReader.GetOrdinal(System.String)">
-      <summary>Возвращает порядковый номер столбца, если известно его имя.</summary>
-      <returns>Порядковый номер столбца (от нуля).</returns>
-      <param name="name">Имя столбца.</param>
-      <exception cref="T:System.IndexOutOfRangeException">Заданное имя недопустимо для имени столбца.</exception>
+    <member name="M:System.Data.Entity.Core.EntityClient.EntityDataReader.GetProviderSpecificValue(System.Int32)">
+      <summary>Возвращает значение указанного столбца как экземпляра <see cref="T:System.Object" />.</summary>
+      <returns>Значение указанного столбца.</returns>
+      <param name="ordinal">Порядковый номер столбца (от нуля).</param>
     </member>
-    <member name="M:System.Data.Entity.Core.EntityClient.EntityDataReader.GetProviderSpecificFieldType(System.Int32)">
-      <summary>Возвращает тип поля заданного столбца, зависящий от поставщика.</summary>
-      <returns>Объект <see cref="T:System.Type" />, описывающий тип данных указанного столбца.</returns>
+    <member name="M:System.Data.Entity.Core.EntityClient.EntityDataReader.GetProviderSpecificValues(System.Object[])">
+      <summary>Возвращает из коллекции все столбцы атрибутов, зависящие от поставщика, для текущей строки.</summary>
+      <returnSystem.Type" />, описывающий тип данных указанного столбца.</returns>
       <param name="ordinal">Порядковый номер столбца (от нуля).</param>
     </member>
     <member name="M:System.Data.Entity.Core.EntityClient.EntityDataReader.GetProviderSpecificValue(System.Int32)">

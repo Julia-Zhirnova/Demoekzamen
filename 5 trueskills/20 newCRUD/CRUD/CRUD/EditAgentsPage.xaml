@@ -1,0 +1,34 @@
+﻿<Page x:Class="CRUD.EditAgentsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CRUD"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditAgentsPage">
+
+    <Grid>
+        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel VerticalAlignment="Top" Margin="10 0">
+
+                <TextBlock Text="Имя риелтора" FontSize="16" Margin="0 0 0 10"/>
+                <TextBlock Text="Фамилия риелтора"  FontSize="16" Margin="0 0 0 10"/>
+                <TextBlock Text="Отчеcтво риелтора" FontSize="16" Margin="0 0 0 10"/>
+                <TextBlock Text="Доля от комиссии" FontSize="16" Margin="0 0 0 10"/>
+            </StackPanel>
+            <StackPanel Width="200" >
+
+                <TextBox Text="{Binding FirstName}" Height="22" Margin="0 0 0 10" />
+                <TextBox Text="{Binding MiddleName}" Height="22" Margin="0 0 0 10"/>
+                <TextBox Text="{Binding LastName}" Height="22" Margin="0 0 0 10"/>
+                <TextBox Text="{Binding DealShare}" Height="22" Margin="0 0 0 10"/>
+                <Button Name="BtnChooseImage" Click="BtnChooseImage_Click" HorizontalAlignment="Center">Загрузить изображение</Button>
+                <Image Name="PreviewImage" Grid.Row="1" Source="{Binding PhotoPath}"></Image>
+                <Button Grid.Row="2" Name="BtnSaveImage" Click="BtnSaveImage_Click" HorizontalAlignment="Center">Сохранить картинку в БД</Button>
+                <Button Content="Сохранить" Name="BtnSave" Margin="10 0" Width="70" Click="BtnSave_Click"/>
+                
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</Page>
