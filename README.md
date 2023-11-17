@@ -1,6 +1,9 @@
 # Demoekzamen
 Здесь собраны задания и код для подготовки к демонстрационному экзамену
 Настройка GitBach: git config --global http.proxy 10.0.50.52:3128
+1. git config —global —unset http.proxy
+2. git config —global —unset https.proxy
+3. git config —global —unset core.gitproxy
 проверка
 ## Инструкция для администратора
 https://docs.google.com/document/d/1x32fZ-GyT_15oGOX7stzYqsTbsleCrxMM63ytzmiA00/edit
