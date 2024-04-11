@@ -1,0 +1,66 @@
+﻿<Page x:Class="Uchet_Zayavok.Pages.EditZayavka"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Uchet_Zayavok.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditZayavka">
+
+    <Grid>
+        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <WrapPanel Orientation="Horizontal" >
+                <StackPanel Width="310" VerticalAlignment="Top" Margin="10 0">
+                <TextBlock Text="Дата добавления заявки" FontSize="16" Margin="0 0 0 10"/>
+                <TextBlock Text="Оборудование, которое требует ремонта"  FontSize="16" Margin="0 0 0 10"/>
+                <TextBlock Text="Тип неисправности" FontSize="16" Margin="0 0 0 10"/>
+                <TextBlock Text="Описание проблемы" FontSize="16" Margin="0 0 0 10"/>                
+            </StackPanel>
+            <StackPanel Width="200" >
+                <TextBox Text="{Binding DataAdd}" Margin="0 0 0 12" />
+                    <TextBox Text="{Binding OborudID}"  Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding TypeNeispID}"  Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding OpisanieProblem}" Margin="0 0 0 12"/>
+                    <Button Content="Сохранить" Name="BtnSave" Margin="0 0 0 12" Click="BtnSave_Click"/>
+            </StackPanel>
+        </WrapPanel>
+            <WrapPanel Name="EditManager" Orientation="Horizontal" Margin="10 0">
+                <StackPanel Width="310" VerticalAlignment="Top" >
+                    <TextBlock Text="Дата выполнения заявки" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Исполнитель"  FontSize="16" Margin="0 0 0 10"/>
+
+                </StackPanel>
+                <StackPanel Width="200" >
+                    <TextBox Text="{Binding DataEnd}" Margin="0 0 0 12" />
+                    <TextBox Text="{Binding IspolnitelID}" Margin="0 0 0 12"/>
+
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel Name="EditIspolnitel" Orientation="Horizontal" Margin="10 0">
+                <StackPanel Width="310" VerticalAlignment="Top" >
+                    <TextBlock Text="Статус заявки" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Комментарий"  FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Материалы" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Стоимость" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Причина неисправности" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Оказанная помощь" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Запчасти" FontSize="16" Margin="0 0 0 10"/>
+                    <TextBlock Text="Дата выполнения заявки" FontSize="16" Margin="0 0 0 10"/>
+                
+            </StackPanel>
+            <StackPanel Width="200" >
+                    <ComboBox Name="StatusCB" SelectedItem="{Binding Status}" DisplayMemberPath="StatusZayavki" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding Comment}" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding Material}" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding Cost}" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding ReasonNeisp}" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding OpisanieHelp}" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding ZapchastID}" Margin="0 0 0 12"/>
+                    <TextBox Text="{Binding DataEnd}" Margin="0 0 0 12"/>              
+                
+            </StackPanel>
+        </WrapPanel>
+        </WrapPanel>
+    </Grid>
+</Page>

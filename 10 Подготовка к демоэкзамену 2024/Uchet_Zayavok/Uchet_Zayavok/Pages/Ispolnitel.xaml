@@ -1,0 +1,87 @@
+﻿<Page x:Class="Uchet_Zayavok.Pages.Ispolnitel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Uchet_Zayavok.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Ispolnitel">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="Auto"></RowDefinition>
+            <RowDefinition  Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Name="Dannye">
+            <Label Name="LblTotalQuantity" FontSize="20">Количество выполненных заявок</Label>
+        <Label Name="LblTotalSum" HorizontalAlignment="Right" FontSize="14" VerticalAlignment="Center">Среднее время выполнения заявки</Label>       
+        </Grid>
+        <WrapPanel Name="Sortirovka" Grid.Row="1" HorizontalAlignment="Center" >
+            <StackPanel Margin="10">
+            <TextBlock Text="Введите номер заявки или параметры для поиска: " FontSize="14" />            
+            <TextBox Name="SearchBox" KeyDown="SearchBox_KeyDown"/>
+            <Button Name="BtnSearch" Content="Поиск" Click="BtnSearch_Click"/>            
+            </StackPanel>
+            <StackPanel Margin="10">
+            <TextBlock Text="Выберите тип неисправности: " FontSize="14" />
+            <ComboBox Name="ComboType" SelectionChanged="ComboType_SelectionChanged"/>
+            <Button Name="BtnReset"  Content="Применить"  Click="BtnReset_Click"/>
+            </StackPanel>            
+            <TextBlock Name="x" Grid.Row="1" Text=""/>
+        </WrapPanel>
+        <DataGrid Grid.Row="2" Name="DGZayavka" AutoGenerateColumns="False"
+                  IsVisibleChanged="DGZayavka_IsVisibleChanged"
+                  HorizontalScrollBarVisibility="Visible"  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер заявки" Binding="{Binding ID}" Width="auto" />
+                <DataGridTextColumn Header="Дата добавления заявки" Binding="{Binding DataAdd}" Width="auto"/>
+                <DataGridTextColumn Header="Оборудование, которое требует ремонта" Binding="{Binding Oborud.NameOborud}" Width="auto"/>
+                <DataGridTextColumn Header="Тип неисправности" Binding="{Binding Neisp.TypeNeisp}" Width="auto"/>
+                <DataGridTextColumn Header="Описание проблемы" Binding="{Binding OpisanieProblem}" Width="auto"/>
+                <DataGridTextColumn Header="Клиент, который подал заявку" Binding="{Binding Client.NameClient}" Width="auto"/>
+                <DataGridTextColumn Header="Статус заявки" Binding="{Binding Status.StatusZayavki}" Width="auto"/>
+                <DataGridTextColumn Header="Исполнитель" Binding="{Binding Ispolnitel.NameIspolnitel}" Width="auto"/>
+                <DataGridTextColumn Header="Комментарий" Binding="{Binding Comment}" Width="auto"/>
+                <DataGridTextColumn Header="Материалы" Binding="{Binding Material}" Width="auto"/>
+                <DataGridTextColumn Header="Стоимость" Binding="{Binding Cost}" Width="auto"/>
+                <DataGridTextColumn Header="Причина неисправности" Binding="{Binding ReasonNeisp}" Width="auto"/>
+                <DataGridTextColumn Header="Оказанная помощь" Binding="{Binding OpisanieHelp}" Width="auto"/>
+                <DataGridTextColumn Header="Запчасти" Binding="{Binding Zapchast.NameZapchact}" Width="auto"/>
+                <DataGridTextColumn Header="Дата выполнения заявки" Binding="{Binding DataEnd}" Width="auto"/>
+
+                <!-- Кнопка редактировать -->
+                <DataGridTemplateColumn Header="Кнопка" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BtnEditAgent" Width="auto" Content="Редактировать" Click="BtnEditAgent_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
+                <!-- Загрузка фотографии -->
+                <DataGridTextColumn Header="Путь к фотографии" Binding="{Binding PhotoPath}" Width="auto"/>
+                <DataGridTemplateColumn Width="auto" Header="Фотография">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Width="50" Grid.Column="0"  Grid.Row="0" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5">
+                                <Image.Source>
+                                    <Binding Path="PhotoPath">
+                                        <Binding.TargetNullValue>
+                                            <ImageSource>/Images/service_logo.png</ImageSource>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="3" Click="Del">Удалить</Button>
+    </Grid>
+</Page>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище uchet_zayavokModelContainer" CdmEntityContainer="uchet_zayavokEntities">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameClient" ColumnName="NameClient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ispolnitel">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Ispolnitel">
+        <MappingFragment StoreEntitySet="Ispolnitel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameIspolnitel" ColumnName="NameIspolnitel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Neisp">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Neisp">
+        <MappingFragment StoreEntitySet="Neisp">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TypeNeisp" ColumnName="TypeNeisp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Oborud">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Oborud">
+        <MappingFragment StoreEntitySet="Oborud">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TypeOborud" ColumnName="TypeOborud" />
+          <ScalarProperty Name="NameOborud" ColumnName="NameOborud" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otchet">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Otchet">
+        <MappingFragment StoreEntitySet="Otchet">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Material" ColumnName="Material" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="ReasonNeisp" ColumnName="ReasonNeisp" />
+          <ScalarProperty Name="OpisanieHelp" ColumnName="OpisanieHelp" />
+          <ScalarProperty Name="ZayavkaID" ColumnName="ZayavkaID" />
+          <ScalarProperty Name="IspolnitelID" ColumnName="IspolnitelID" />
+          <ScalarProperty Name="ZapchastID" ColumnName="ZapchastID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StatusZayavki" ColumnName="StatusZayavki" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zapchast">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Zapchast">
+        <MappingFragment StoreEntitySet="Zapchast">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameZapchact" ColumnName="NameZapchact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zayavka">
+      <EntityTypeMapping TypeName="uchet_zayavokModel.Zayavka">
+        <MappingFragment StoreEntitySet="Zayavka">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DataAdd" ColumnName="DataAdd" />
+          <ScalarProperty Name="OborudID" ColumnName="OborudID" />
+          <ScalarProperty Name="TypeNeispID" ColumnName="TypeNeispID" />
+          <ScalarProperty Name="OpisanieProblem" ColumnName="OpisanieProblem" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="IspolnitelID" ColumnName="IspolnitelID" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Material" ColumnName="Material" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="ReasonNeisp" ColumnName="ReasonNeisp" />
+          <ScalarProperty Name="OpisanieHelp" ColumnName="OpisanieHelp" />
+          <ScalarProperty Name="ZapchastID" ColumnName="ZapchastID" />
+          <ScalarProperty Name="DataEnd" ColumnName="DataEnd" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

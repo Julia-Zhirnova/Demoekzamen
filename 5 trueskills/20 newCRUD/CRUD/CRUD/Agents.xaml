@@ -14,7 +14,7 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
-        <DataGrid Name="DGridCRUDagents" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="0">
+        <DataGrid Name="DGridCRUDagents" AutoGenerateColumns="False" MouseRightButtonDown="AgentsDataGrid_MouseRightButtonDown" Grid.Row="0">
             <DataGrid.Columns>
                 <DataGridTemplateColumn Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
@@ -31,7 +31,8 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTextColumn Header="Имя риелтора" Binding="{Binding FirstName}" Width="auto"/>
+                <DataGridTextColumn Header="Имя риелтора" Binding="{Binding FirstName}" Width="auto" IsReadOnly="True"/>
+
                 <DataGridTextColumn Header="Фамилия риелтора" Binding="{Binding MiddleName}" Width="auto"/>
                 <DataGridTextColumn Header="Отчеcтво риелтора" Binding="{Binding LastName}" Width="auto"/>
                 <DataGridTextColumn Header="Доля от комиссии" Binding="{Binding DealShare}" Width="auto"/>
@@ -43,10 +44,13 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
+                <DataGridComboBoxColumn x:Name="ComboBoxColumn" Header="Position"  SelectedItemBinding="{Binding DealShare}" DisplayMemberPath="FirstName"/>
+                
             </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="2">
             <Button Name="BtnAddAgent" Content="Добавить риелтора" Width="200" Margin="10 0" Click="BtnAddAgent_Click" HorizontalAlignment="Left"/>
+            <Button Name="BtnSaveAgent" Content="Сохранить риелтора" Width="200" Margin="10 0" Click="BtnSaveAgent_Click" HorizontalAlignment="Left"/>
             <Button Name="BtnDelAgent" Content="Удалить риелтора" Width="200" Margin="10 0" Click="BtnDelAgent_Click" HorizontalAlignment="Right"/>
         </Grid>
     </Grid>

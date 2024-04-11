@@ -24,7 +24,7 @@ namespace CRUD
         {
             InitializeComponent();
             Manager.MainFrame = MainFrame;
-            MainFrame.Navigate(new Agents());
+            MainFrame.Navigate(new Page1());
         }
 
         

@@ -20,12 +20,18 @@ namespace CRUD
     /// </summary>
     public partial class Agents : Page
     {
-       // CRUDEntities _context = new CRUDEntities();
+
+        // CRUDEntities _context = new CRUDEntities();
         public Agents()
         {
             InitializeComponent();
+            var allTypes = CRUDEntities.GetContext().agents.ToList();
+            allTypes.Insert(0, new agents { FirstName = "Все типы" });
+            ComboBoxColumn.ItemsSource = allTypes;
+          
             DGridCRUDagents.ItemsSource = CRUDEntities.GetContext().agents.ToList();
         }
+
         private void RefreshData()
         {
             DGridCRUDagents.ItemsSource = CRUDEntities.GetContext().agents.ToList();
@@ -45,5 +51,41 @@ namespace CRUD
         {
 
         }
+
+        private void BtnSaveAgent_Click(object sender, RoutedEventArgs e)
+        {
+          //  CRUDEntities.GetContext().agents.Add(_currentagents);
+        }
+
+        private void AgentsDataGrid_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            // Manager.MainFrame.Navigate(new EditAgentsPage(null));
+            // CRUDEntities.GetContext().agents.Add((sender as Button).DataContext as agents); 
+            try
+            {
+                CRUDEntities.GetContext().SaveChanges();
+                MessageBox.Show("Информация сохранена!");
+                RefreshData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
+
+        }
+
+        private void peopleComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+          /*  if (peopleComboBox.SelectedValue is { }) // если не равно null
+            {
+                selectedPerson.Text = peopleComboBox.SelectedValue.ToString();
+            }*/
+        }
+    }
+    public class Person
+    {
+        public string Name { get; set; } = "";
+        public string Company { get; set; } = "";
+        public override string ToString() => $"{Name} ({Company})";
     }
 }

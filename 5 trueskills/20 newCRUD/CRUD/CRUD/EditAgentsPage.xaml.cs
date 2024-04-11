@@ -31,6 +31,7 @@ namespace CRUD
         public EditAgentsPage(agents sellectedAgents)
         {            
             InitializeComponent();
+            
             if (sellectedAgents != null)
             {
                 _currentagents = sellectedAgents;

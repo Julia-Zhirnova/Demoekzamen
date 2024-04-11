@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="uchet_zayavokModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameClient" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_zayavka_client" FromRole="Client" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="Ispolnitel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameIspolnitel" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_zayavka_Ispolnitel" FromRole="Ispolnitel" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="Neisp">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeNeisp" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_zayavka_neisp" FromRole="Neisp" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="Oborud">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeOborud" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NameOborud" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_zayavka_oborud" FromRole="Oborud" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="Otchet">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="Int32" Nullable="false" />
+    <Property Name="Material" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cost" Type="Int32" Nullable="false" />
+    <Property Name="ReasonNeisp" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OpisanieHelp" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ZayavkaID" Type="Int32" Nullable="false" />
+    <Property Name="IspolnitelID" Type="Int32" Nullable="false" />
+    <Property Name="ZapchastID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleUser" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Role" FromRole="Role" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusZayavki" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_zayavka_status" FromRole="Status" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Users_Role" FromRole="Users" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Zapchast">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameZapchact" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_Zayavka_Zapchast" FromRole="Zapchast" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="Zayavka">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DataAdd" Type="DateTime" Precision="0" />
+    <Property Name="OborudID" Type="Int32" />
+    <Property Name="TypeNeispID" Type="Int32" />
+    <Property Name="OpisanieProblem" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="StatusID" Type="Int32" />
+    <Property Name="IspolnitelID" Type="Int32" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Material" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Cost" Type="Int32" />
+    <Property Name="ReasonNeisp" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OpisanieHelp" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ZapchastID" Type="Int32" />
+    <Property Name="DataEnd" Type="DateTime" Precision="0" />
+    <Property Name="PhotoPath" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Client" Relationship="Self.FK_zayavka_client" FromRole="Zayavka" ToRole="Client" />
+    <NavigationProperty Name="Ispolnitel" Relationship="Self.FK_zayavka_Ispolnitel" FromRole="Zayavka" ToRole="Ispolnitel" />
+    <NavigationProperty Name="Neisp" Relationship="Self.FK_zayavka_neisp" FromRole="Zayavka" ToRole="Neisp" />
+    <NavigationProperty Name="Oborud" Relationship="Self.FK_zayavka_oborud" FromRole="Zayavka" ToRole="Oborud" />
+    <NavigationProperty Name="Status" Relationship="Self.FK_zayavka_status" FromRole="Zayavka" ToRole="Status" />
+    <NavigationProperty Name="Zapchast" Relationship="Self.FK_Zayavka_Zapchast" FromRole="Zayavka" ToRole="Zapchast" />
+  </EntityType>
+  <Association Name="FK_zayavka_client">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zayavka_Ispolnitel">
+    <End Role="Ispolnitel" Type="Self.Ispolnitel" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ispolnitel">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="IspolnitelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zayavka_neisp">
+    <End Role="Neisp" Type="Self.Neisp" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Neisp">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="TypeNeispID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zayavka_oborud">
+    <End Role="Oborud" Type="Self.Oborud" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Oborud">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="OborudID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zayavka_status">
+    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zayavka_Zapchast">
+    <End Role="Zapchast" Type="Self.Zapchast" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zapchast">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="ZapchastID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="uchet_zayavokEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Client" EntityType="Self.Client" />
+    <EntitySet Name="Ispolnitel" EntityType="Self.Ispolnitel" />
+    <EntitySet Name="Neisp" EntityType="Self.Neisp" />
+    <EntitySet Name="Oborud" EntityType="Self.Oborud" />
+    <EntitySet Name="Otchet" EntityType="Self.Otchet" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Status" EntityType="Self.Status" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Zapchast" EntityType="Self.Zapchast" />
+    <EntitySet Name="Zayavka" EntityType="Self.Zayavka" />
+    <AssociationSet Name="FK_zayavka_client" Association="Self.FK_zayavka_client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zayavka_Ispolnitel" Association="Self.FK_zayavka_Ispolnitel">
+      <End Role="Ispolnitel" EntitySet="Ispolnitel" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zayavka_neisp" Association="Self.FK_zayavka_neisp">
+      <End Role="Neisp" EntitySet="Neisp" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zayavka_oborud" Association="Self.FK_zayavka_oborud">
+      <End Role="Oborud" EntitySet="Oborud" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Role" Association="Self.FK_Users_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zayavka_status" Association="Self.FK_zayavka_status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zayavka_Zapchast" Association="Self.FK_Zayavka_Zapchast">
+      <End Role="Zapchast" EntitySet="Zapchast" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
