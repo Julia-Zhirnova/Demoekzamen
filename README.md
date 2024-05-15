@@ -7,6 +7,11 @@
 2. git config —global —unset https.proxy
 3. git config —global —unset core.gitproxy
 проверка
+
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/b27ea591-ebc7-44c9-b5cb-e6cb61c184d6)
+![image](https://github.com/Julia-Zhirnova/Demoekzamen/assets/52165649/9f68c6f7-f878-4060-bd48-1e2acb198ed6)
+
+
 ## Инструкция для администратора
 https://docs.google.com/document/d/1x32fZ-GyT_15oGOX7stzYqsTbsleCrxMM63ytzmiA00/edit
 
