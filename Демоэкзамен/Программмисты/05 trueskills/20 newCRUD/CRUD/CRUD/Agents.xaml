@@ -1,0 +1,57 @@
+﻿<Page x:Class="CRUD.Agents"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CRUD"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Agents">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Name="DGridCRUDagents" AutoGenerateColumns="False" MouseRightButtonDown="AgentsDataGrid_MouseRightButtonDown" Grid.Row="0">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Width="100" Grid.Column="0"  Grid.Row="0" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5">
+                                <Image.Source>
+                                    <Binding Path="PhotoPath">
+                                        <Binding.TargetNullValue>
+                                            <ImageSource>/img/picture.png</ImageSource>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Имя риелтора" Binding="{Binding FirstName}" Width="auto" IsReadOnly="True"/>
+
+                <DataGridTextColumn Header="Фамилия риелтора" Binding="{Binding MiddleName}" Width="auto"/>
+                <DataGridTextColumn Header="Отчеcтво риелтора" Binding="{Binding LastName}" Width="auto"/>
+                <DataGridTextColumn Header="Доля от комиссии" Binding="{Binding DealShare}" Width="auto"/>
+                <DataGridTextColumn Header="Фотография" Binding="{Binding PhotoPath}" Width="auto"/>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>                            
+                            <Button Name="BtnEditAgent" Width="auto" Content="Редактировать" Padding="10 5" Margin="10 5" Click="BtnEditAgent_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridComboBoxColumn x:Name="ComboBoxColumn" Header="Position"  SelectedItemBinding="{Binding DealShare}" DisplayMemberPath="FirstName"/>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="2">
+            <Button Name="BtnAddAgent" Content="Добавить риелтора" Width="200" Margin="10 0" Click="BtnAddAgent_Click" HorizontalAlignment="Left"/>
+            <Button Name="BtnSaveAgent" Content="Сохранить риелтора" Width="200" Margin="10 0" Click="BtnSaveAgent_Click" HorizontalAlignment="Left"/>
+            <Button Name="BtnDelAgent" Content="Удалить риелтора" Width="200" Margin="10 0" Click="BtnDelAgent_Click" HorizontalAlignment="Right"/>
+        </Grid>
+    </Grid>
+</Page>

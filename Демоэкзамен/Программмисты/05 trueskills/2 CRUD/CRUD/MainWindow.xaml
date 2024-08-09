@@ -1,0 +1,43 @@
+﻿<Window x:Class="CRUD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRUD"
+        mc:Ignorable="d"
+        Title="CRUD" Height="600" Width="850" MinHeight="300" MinWidth="500" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>           
+
+            <Grid Grid.Row="1">
+                <StackPanel>
+                    <Button x:Name="BtnClient" Click="BtnClient_Click">Клиенты</Button>
+                    <Button x:Name="BtnAgent" Click="BtnAgent_Click">Риелторы</Button>
+                    
+                </StackPanel>
+                <Button x:Name="BtnExit" Click="BtnExit_Click" VerticalAlignment="Bottom">Выход</Button>
+            </Grid>
+        </Grid>
+
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label FontSize="40" Margin="10" FontWeight="SemiBold" Content="{Binding ElementName=MainFrame, Path=Content.Title}"></Label>
+            
+
+            <Frame Grid.Row="1" x:Name="MainFrame" Margin="10" NavigationUIVisibility="Hidden"></Frame>
+        </Grid>
+    </Grid>
+</Window>

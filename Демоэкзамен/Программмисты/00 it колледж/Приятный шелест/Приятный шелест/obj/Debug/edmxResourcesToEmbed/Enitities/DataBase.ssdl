@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище user8Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AGENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AGENTTYPEID" Type="int" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PHONE" Type="nvarchar" MaxLength="30" />
+    <Property Name="PHOTOPATH" Type="nvarchar" MaxLength="200" />
+    <Property Name="BUSINESSADDRESS" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DIRECTORLASTNAME" Type="nvarchar" MaxLength="200" />
+    <Property Name="DIRECTORFIRSTNAME" Type="nvarchar" MaxLength="200" />
+    <Property Name="DIRECTORMIDDLENAME" Type="nvarchar" MaxLength="200" />
+    <Property Name="INN" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="KPP" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AGENTHISTORY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PRIORITY" Type="int" Nullable="false" />
+    <Property Name="AGENTID" Type="int" />
+  </EntityType>
+  <EntityType Name="AGENTTYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CATEGORY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EMPLOYEE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LASTNAME" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="FIRSTNAME" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MIDDLENAME" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="DATEOFBIRTH" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GOOD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="GOODTYPEID" Type="int" />
+    <Property Name="ARTICLE" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="PEOPLECOUNT" Type="int" Nullable="false" />
+    <Property Name="FLOORNUMBER" Type="int" Nullable="false" />
+    <Property Name="MINPRICE" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GOODPARAMETR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GOODID" Type="int" Nullable="false" />
+    <Property Name="PARAMETERID" Type="int" Nullable="false" />
+    <Property Name="VALUE" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GOODTYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="INFORMATION">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EMPLOYEEID" Type="int" Nullable="false" />
+    <Property Name="CATEGORYID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PARAMETER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROVIDER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="200" />
+    <Property Name="INN" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="AGENTTYPEID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROVIDERGOOD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PROVIDERID" Type="int" Nullable="false" />
+    <Property Name="GOODID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SALECONTRACT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GOODID" Type="int" Nullable="false" />
+    <Property Name="AGENTID" Type="int" />
+    <Property Name="DATE" Type="date" Nullable="false" />
+    <Property Name="COUNT" Type="int" Nullable="false" />
+    <Property Name="COMPLETE" Type="bit" />
+    <Property Name="EMPLOYEEID" Type="int" />
+  </EntityType>
+  <EntityType Name="SUPPLY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PROVIDERPRODUCTID" Type="int" />
+    <Property Name="DATE" Type="date" />
+    <Property Name="COUNT" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="LOGIN" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="PASSWORD" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="ROLEID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VISIT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EMPLOYEEID" Type="int" Nullable="false" />
+    <Property Name="DATEENTER" Type="datetime" Nullable="false" />
+    <Property Name="DATEEXIT" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__AGENT__AGENTTYPE__10566F31">
+    <End Role="AGENTTYPE" Type="Self.AGENTTYPE" Multiplicity="1" />
+    <End Role="AGENT" Type="Self.AGENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENTTYPE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AGENT">
+        <PropertyRef Name="AGENTTYPEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AGENTHIST__AGENT__114A936A">
+    <End Role="AGENT" Type="Self.AGENT" Multiplicity="0..1" />
+    <End Role="AGENTHISTORY" Type="Self.AGENTHISTORY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AGENTHISTORY">
+        <PropertyRef Name="AGENTID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOOD__GOODTYPEID__123EB7A3">
+    <End Role="GOODTYPE" Type="Self.GOODTYPE" Multiplicity="0..1" />
+    <End Role="GOOD" Type="Self.GOOD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GOODTYPE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="GOOD">
+        <PropertyRef Name="GOODTYPEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOODPARAM__GOODI__14270015">
+    <End Role="GOOD" Type="Self.GOOD" Multiplicity="1" />
+    <End Role="GOODPARAMETR" Type="Self.GOODPARAMETR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GOOD">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="GOODPARAMETR">
+        <PropertyRef Name="GOODID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOODPARAM__PARAM__1332DBDC">
+    <End Role="PARAMETER" Type="Self.PARAMETER" Multiplicity="1" />
+    <End Role="GOODPARAMETR" Type="Self.GOODPARAMETR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARAMETER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="GOODPARAMETR">
+        <PropertyRef Name="PARAMETERID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__INFORMATI__CATEG__151B244E">
+    <End Role="CATEGORY" Type="Self.CATEGORY" Multiplicity="1" />
+    <End Role="INFORMATION" Type="Self.INFORMATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORY">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="INFORMATION">
+        <PropertyRef Name="CATEGORYID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__INFORMATI__EMPLO__160F4887">
+    <End Role="EMPLOYEE" Type="Self.EMPLOYEE" Multiplicity="1" />
+    <End Role="INFORMATION" Type="Self.INFORMATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLOYEE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="INFORMATION">
+        <PropertyRef Name="EMPLOYEEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PROVIDER__AGENTT__17036CC0">
+    <End Role="AGENTTYPE" Type="Self.AGENTTYPE" Multiplicity="1" />
+    <End Role="PROVIDER" Type="Self.PROVIDER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENTTYPE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PROVIDER">
+        <PropertyRef Name="AGENTTYPEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PROVIDERG__GOODI__17F790F9">
+    <End Role="GOOD" Type="Self.GOOD" Multiplicity="1" />
+    <End Role="PROVIDERGOOD" Type="Self.PROVIDERGOOD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GOOD">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PROVIDERGOOD">
+        <PropertyRef Name="GOODID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PROVIDERG__PROVI__18EBB532">
+    <End Role="PROVIDER" Type="Self.PROVIDER" Multiplicity="1" />
+    <End Role="PROVIDERGOOD" Type="Self.PROVIDERGOOD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVIDER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PROVIDERGOOD">
+        <PropertyRef Name="PROVIDERID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sale__AgentId__6754599E">
+    <End Role="AGENT" Type="Self.AGENT" Multiplicity="0..1" />
+    <End Role="SALECONTRACT" Type="Self.SALECONTRACT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SALECONTRACT">
+        <PropertyRef Name="AGENTID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sale__ProductId__66603565">
+    <End Role="GOOD" Type="Self.GOOD" Multiplicity="1" />
+    <End Role="SALECONTRACT" Type="Self.SALECONTRACT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GOOD">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SALECONTRACT">
+        <PropertyRef Name="GOODID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER__ID__1DB06A4F">
+    <End Role="EMPLOYEE" Type="Self.EMPLOYEE" Multiplicity="1" />
+    <End Role="USER" Type="Self.USER" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLOYEE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="USER">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER__ROLEID__1EA48E88">
+    <End Role="ROLE" Type="Self.ROLE" Multiplicity="1" />
+    <End Role="USER" Type="Self.USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="USER">
+        <PropertyRef Name="ROLEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VISIT__EMPLOYEEI__1F98B2C1">
+    <End Role="EMPLOYEE" Type="Self.EMPLOYEE" Multiplicity="1" />
+    <End Role="VISIT" Type="Self.VISIT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLOYEE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VISIT">
+        <PropertyRef Name="EMPLOYEEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sale_Employee">
+    <End Role="EMPLOYEE" Type="Self.EMPLOYEE" Multiplicity="0..1" />
+    <End Role="SALECONTRACT" Type="Self.SALECONTRACT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLOYEE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SALECONTRACT">
+        <PropertyRef Name="EMPLOYEEID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Supply_ProviderProduct">
+    <End Role="PROVIDERGOOD" Type="Self.PROVIDERGOOD" Multiplicity="0..1" />
+    <End Role="SUPPLY" Type="Self.SUPPLY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVIDERGOOD">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SUPPLY">
+        <PropertyRef Name="PROVIDERPRODUCTID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище user8ModelContainer">
+    <EntitySet Name="AGENT" EntityType="Self.AGENT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AGENTHISTORY" EntityType="Self.AGENTHISTORY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AGENTTYPE" EntityType="Self.AGENTTYPE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CATEGORY" EntityType="Self.CATEGORY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMPLOYEE" EntityType="Self.EMPLOYEE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GOOD" EntityType="Self.GOOD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GOODPARAMETR" EntityType="Self.GOODPARAMETR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GOODTYPE" EntityType="Self.GOODTYPE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="INFORMATION" EntityType="Self.INFORMATION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PARAMETER" EntityType="Self.PARAMETER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROVIDER" EntityType="Self.PROVIDER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROVIDERGOOD" EntityType="Self.PROVIDERGOOD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ROLE" EntityType="Self.ROLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SALECONTRACT" EntityType="Self.SALECONTRACT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SUPPLY" EntityType="Self.SUPPLY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VISIT" EntityType="Self.VISIT" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__AGENT__AGENTTYPE__10566F31" Association="Self.FK__AGENT__AGENTTYPE__10566F31">
+      <End Role="AGENTTYPE" EntitySet="AGENTTYPE" />
+      <End Role="AGENT" EntitySet="AGENT" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AGENTHIST__AGENT__114A936A" Association="Self.FK__AGENTHIST__AGENT__114A936A">
+      <End Role="AGENT" EntitySet="AGENT" />
+      <End Role="AGENTHISTORY" EntitySet="AGENTHISTORY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOOD__GOODTYPEID__123EB7A3" Association="Self.FK__GOOD__GOODTYPEID__123EB7A3">
+      <End Role="GOODTYPE" EntitySet="GOODTYPE" />
+      <End Role="GOOD" EntitySet="GOOD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOODPARAM__GOODI__14270015" Association="Self.FK__GOODPARAM__GOODI__14270015">
+      <End Role="GOOD" EntitySet="GOOD" />
+      <End Role="GOODPARAMETR" EntitySet="GOODPARAMETR" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOODPARAM__PARAM__1332DBDC" Association="Self.FK__GOODPARAM__PARAM__1332DBDC">
+      <End Role="PARAMETER" EntitySet="PARAMETER" />
+      <End Role="GOODPARAMETR" EntitySet="GOODPARAMETR" />
+    </AssociationSet>
+    <AssociationSet Name="FK__INFORMATI__CATEG__151B244E" Association="Self.FK__INFORMATI__CATEG__151B244E">
+      <End Role="CATEGORY" EntitySet="CATEGORY" />
+      <End Role="INFORMATION" EntitySet="INFORMATION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__INFORMATI__EMPLO__160F4887" Association="Self.FK__INFORMATI__EMPLO__160F4887">
+      <End Role="EMPLOYEE" EntitySet="EMPLOYEE" />
+      <End Role="INFORMATION" EntitySet="INFORMATION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PROVIDER__AGENTT__17036CC0" Association="Self.FK__PROVIDER__AGENTT__17036CC0">
+      <End Role="AGENTTYPE" EntitySet="AGENTTYPE" />
+      <End Role="PROVIDER" EntitySet="PROVIDER" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PROVIDERG__GOODI__17F790F9" Association="Self.FK__PROVIDERG__GOODI__17F790F9">
+      <End Role="GOOD" EntitySet="GOOD" />
+      <End Role="PROVIDERGOOD" EntitySet="PROVIDERGOOD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PROVIDERG__PROVI__18EBB532" Association="Self.FK__PROVIDERG__PROVI__18EBB532">
+      <End Role="PROVIDER" EntitySet="PROVIDER" />
+      <End Role="PROVIDERGOOD" EntitySet="PROVIDERGOOD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sale__AgentId__6754599E" Association="Self.FK__Sale__AgentId__6754599E">
+      <End Role="AGENT" EntitySet="AGENT" />
+      <End Role="SALECONTRACT" EntitySet="SALECONTRACT" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sale__ProductId__66603565" Association="Self.FK__Sale__ProductId__66603565">
+      <End Role="GOOD" EntitySet="GOOD" />
+      <End Role="SALECONTRACT" EntitySet="SALECONTRACT" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER__ID__1DB06A4F" Association="Self.FK__USER__ID__1DB06A4F">
+      <End Role="EMPLOYEE" EntitySet="EMPLOYEE" />
+      <End Role="USER" EntitySet="USER" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER__ROLEID__1EA48E88" Association="Self.FK__USER__ROLEID__1EA48E88">
+      <End Role="ROLE" EntitySet="ROLE" />
+      <End Role="USER" EntitySet="USER" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VISIT__EMPLOYEEI__1F98B2C1" Association="Self.FK__VISIT__EMPLOYEEI__1F98B2C1">
+      <End Role="EMPLOYEE" EntitySet="EMPLOYEE" />
+      <End Role="VISIT" EntitySet="VISIT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sale_Employee" Association="Self.FK_Sale_Employee">
+      <End Role="EMPLOYEE" EntitySet="EMPLOYEE" />
+      <End Role="SALECONTRACT" EntitySet="SALECONTRACT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Supply_ProviderProduct" Association="Self.FK_Supply_ProviderProduct">
+      <End Role="PROVIDERGOOD" EntitySet="PROVIDERGOOD" />
+      <End Role="SUPPLY" EntitySet="SUPPLY" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

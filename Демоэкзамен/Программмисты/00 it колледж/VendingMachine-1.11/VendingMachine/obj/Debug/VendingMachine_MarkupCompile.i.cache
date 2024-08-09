@@ -1,0 +1,20 @@
+﻿VendingMachine
+
+
+winexe
+C#
+.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\
+VendingMachine
+none
+false
+DEBUG;TRACE
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\App.xaml
+81945611875
+21628168987
+23-766504237
+191538993146
+Pages\AddDrinkPage.xaml;Pages\AdminPage.xaml;Pages\AuthorizePage.xaml;Pages\DrinksPage.xaml;Pages\MachinePage.xaml;Pages\MoneyPage.xaml;Pages\ReportPage.xaml;Windows\MainWindow.xaml;
+
+True
+

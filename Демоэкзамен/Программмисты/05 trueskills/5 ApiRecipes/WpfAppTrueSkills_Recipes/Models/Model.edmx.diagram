@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bc7c156f11f7414187b9d07974ece4b9" Name="Diagram1">
+        <EntityTypeShape EntityType="MyRecipesModel.Category" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyRecipesModel.CookingStage" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyRecipesModel.Dish" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyRecipesModel.Ingredient" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyRecipesModel.IngredientOfStage" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyRecipesModel.Unit" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="MyRecipesModel.FK_Dish_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="MyRecipesModel.FK_CookingStage_Dish" ManuallyRouted="false" />
+        <AssociationConnector Association="MyRecipesModel.FK_IngredientOfStage_CookingStage" ManuallyRouted="false" />
+        <AssociationConnector Association="MyRecipesModel.FK_Ingredient_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="MyRecipesModel.FK_IngredientOfStage_Ingredient" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MyRecipesModel.Tag" Width="1.5" PointX="7.5" PointY="5.375" />
+        <AssociationConnector Association="MyRecipesModel.TagOfIngredient" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

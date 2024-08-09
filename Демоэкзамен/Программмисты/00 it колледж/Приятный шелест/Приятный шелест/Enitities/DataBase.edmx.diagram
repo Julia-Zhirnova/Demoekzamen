@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd244e1af3f548e9819a6bf69c8120b8" Name="Diagram1">
+        <EntityTypeShape EntityType="user8Model.AGENT" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.AGENTHISTORY" Width="1.5" PointX="8.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.AGENTTYPE" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.CATEGORY" Width="1.5" PointX="6" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.EMPLOYEE" Width="1.5" PointX="6" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.GOOD" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.GOODPARAMETR" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.GOODTYPE" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.INFORMATION" Width="1.5" PointX="8.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.PARAMETER" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.PROVIDER" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.PROVIDERGOOD" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.ROLE" Width="1.5" PointX="6" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.SALECONTRACT" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.SUPPLY" Width="1.5" PointX="7.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.USER" Width="1.5" PointX="8.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.VISIT" Width="1.5" PointX="8.25" PointY="18.875" IsExpanded="true" />
+        <AssociationConnector Association="user8Model.FK__AGENT__AGENTTYPE__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__AGENTHIST__AGENT__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__Sale__AgentId__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__PROVIDER__AGENTT__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__INFORMATI__CATEG__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__INFORMATI__EMPLO__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__USER__ID__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__VISIT__EMPLOYEEI__1F98B2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Sale_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__GOOD__GOODTYPEID__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__GOODPARAM__GOODI__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__PROVIDERG__GOODI__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__Sale__ProductId__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__GOODPARAM__PARAM__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__PROVIDERG__PROVI__18EBB532" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Supply_ProviderProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__USER__ROLEID__1EA48E88" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,52 @@
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\CRUD.exe.config
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\CRUD.exe
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\CRUD.pdb
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Agents.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\EditAgentsPage.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\App.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Agents.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\EditAgentsPage.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.g.resources
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.CopyComplete
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.exe
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.pdb
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\EntityFramework.dll
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\CRUD.exe.config
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\CRUD.exe
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\CRUD.pdb
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\EntityFramework.xml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\Agents.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\EditAgentsPage.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\MainWindow.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\Page1.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\App.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\Agents.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\EditAgentsPage.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\MainWindow.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\Page1.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.g.resources
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.csproj.CopyComplete
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.exe
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\20 newCRUD\CRUD\CRUD\obj\Debug\CRUD.pdb

@@ -1,0 +1,223 @@
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\CPKiO.exe.config
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\CPKiO.exe
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\CPKiO.pdb
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\EntityFramework.dll
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.dll
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\EntityFramework.xml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.xml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\bin\Debug\ru\EntityFramework.resources.dll
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\App.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO_Content.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.cache
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.lref
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\App.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.g.resources
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.Properties.Resources.resources
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.GenerateResource.cache
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CoreCompileInputs.cache
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CopyComplete
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.exe
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.pdb
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.AssemblyReference.cache
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\CodePage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\CodePage.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.g.cs
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.baml
+D:\Демоэкзамен\_ЗАДАНИЕ\_Выполнение\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.AssemblyReference.cache
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\App.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO_Content.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.cache
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.lref
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.exe
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.pdb
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\CPKiO.exe.config
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\CPKiO.exe
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\CPKiO.pdb
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.dll
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.xml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\App.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.baml
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.g.resources
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.Properties.Resources.resources
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.GenerateResource.cache
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CoreCompileInputs.cache
+C:\Users\MeoW\Desktop\Новая папка\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CopyComplete
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\CPKiO.exe.config
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\CPKiO.exe
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\CPKiO.pdb
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\CodePage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO_Content.g.cs
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.lref
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\App.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\CodePage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.baml
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.g.resources
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CopyComplete
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.exe
+C:\Users\Администратор\Desktop\Новая папка\CPKiO\CPKiO\obj\Debug\CPKiO.pdb
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO_Content.g.cs
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.lref
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.exe
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.pdb
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\CPKiO.exe.config
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\CPKiO.exe
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\CPKiO.pdb
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\App.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.baml
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.g.resources
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Сессия 1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CopyComplete
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\CPKiO.exe.config
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\CPKiO.exe
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\CPKiO.pdb
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO_Content.g.cs
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.lref
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\App.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.baml
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.g.resources
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CopyComplete
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.exe
+C:\Users\Администратор\Desktop\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.pdb
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\CPKiO.exe.config
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\CPKiO.exe
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\CPKiO.pdb
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.SuggestedBindingRedirects.cache
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO_Content.g.cs
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.cache
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO_MarkupCompile.lref
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\App.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AddOrderPage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\AdminPage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\CodePage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\LoginPage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\ManagerPage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\OrderPage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Pages\SellerPage.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\Windows\MainWindow.baml
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.g.resources
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.Properties.Resources.resources
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.csproj.CopyComplete
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.exe
+D:\worldskills\варианты заданий\7 задание 2022\вариант 2\Сессия_1\CPKiO\CPKiO\obj\Debug\CPKiO.pdb

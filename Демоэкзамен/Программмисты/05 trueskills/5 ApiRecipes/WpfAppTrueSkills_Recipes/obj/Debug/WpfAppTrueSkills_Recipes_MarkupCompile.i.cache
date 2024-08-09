@@ -1,0 +1,20 @@
+﻿WpfAppTrueSkills_Recipes
+
+
+winexe
+C#
+.cs
+D:\worldskills\варианты заданий\trueskills\WpfAppTrueSkills_Recipes-master\WpfAppTrueSkills_Recipes\obj\Debug\
+WpfAppTrueSkills_Recipes
+none
+false
+DEBUG;TRACE
+D:\worldskills\варианты заданий\trueskills\WpfAppTrueSkills_Recipes-master\WpfAppTrueSkills_Recipes\App.xaml
+6348387760
+2271185433
+242022578634
+20605264006
+MainWindow.xaml;Pages\PageCaptcha.xaml;Pages\PageCurrentRecipe.xaml;Pages\PageListDishes.xaml;Pages\PageListIngredients.xaml;Pages\PageNewIngredient.xaml;
+
+True
+

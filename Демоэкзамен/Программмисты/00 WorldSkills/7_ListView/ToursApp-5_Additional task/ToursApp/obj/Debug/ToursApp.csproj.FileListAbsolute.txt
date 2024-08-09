@@ -1,0 +1,318 @@
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\14_04.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\15_05.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\Жирнова\16_06.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-2\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\21_18.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\23_20.10.21\ToursApp-4\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\AddEditPage.g.cs
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\HotelsPage.g.cs
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursPage.g.cs
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\AddEditPage.baml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\HotelsPage.baml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursPage.baml
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\24_26.10.21\ToursApp-5\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\AddEditPage.g.cs
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\HotelsPage.g.cs
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\ToursPage.g.cs
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\AddEditPage.baml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\HotelsPage.baml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\ToursPage.baml
+D:\4_KYPC\д_Жирнова\25_08.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\ToursApp.exe.config
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\ToursApp.pdb
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.dll
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.xml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\AddEditPage.g.cs
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\HotelsPage.g.cs
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\MainWindow.g.cs
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\ToursPage.g.cs
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\App.g.cs
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\App.baml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\AddEditPage.baml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\HotelsPage.baml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\MainWindow.baml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\Pages\ToursPage.baml
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.g.resources
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.exe
+D:\4_KYPC\д_Жирнова\26_09.11.21\ToursApp-5-2\ToursApp\obj\Debug\ToursApp.pdb
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ToursApp.exe.config
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ToursApp.exe
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ToursApp.pdb
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.dll
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.xml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\AddEditPage.g.cs
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\HotelsPage.g.cs
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\MainWindow.g.cs
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\ToursPage.g.cs
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\App.g.cs
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\App.baml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\AddEditPage.baml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\HotelsPage.baml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\MainWindow.baml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\ToursPage.baml
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.g.resources
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.exe
+D:\worldskills\шумейкова\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.pdb
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ToursApp.exe.config
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ToursApp.exe
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ToursApp.pdb
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.dll
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.xml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.csproj.AssemblyReference.cache
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\AddEditPage.g.cs
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\HotelsPage.g.cs
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\MainWindow.g.cs
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\ToursPage.g.cs
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\App.g.cs
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp_Content.g.cs
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp_MarkupCompile.cache
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp_MarkupCompile.lref
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\App.baml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\AddEditPage.baml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\HotelsPage.baml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\MainWindow.baml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\Pages\ToursPage.baml
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.g.resources
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.Properties.Resources.resources
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.csproj.GenerateResource.cache
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.csproj.CoreCompileInputs.cache
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.exe
+D:\worldskills\shum\185\WorldSkills\7_ListView\ToursApp-5_Additional task\ToursApp\obj\Debug\ToursApp.pdb

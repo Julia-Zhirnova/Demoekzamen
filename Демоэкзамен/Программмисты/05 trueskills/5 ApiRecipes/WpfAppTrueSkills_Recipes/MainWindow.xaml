@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfAppTrueSkills_Recipes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppTrueSkills_Recipes"
+        mc:Ignorable="d"
+        Title="Мои рецепты" Height="700" Width="1200" MinHeight="300" MinWidth="400" Icon="/Resources/nyam-nyam.ico" WindowStartupLocation="CenterScreen">
+<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Image Source="/Resources/nyam-nyam.png" Margin="10"/>
+
+            <Grid Grid.Row="1" Background="{StaticResource MainPink}">
+                <StackPanel>
+                    <Button x:Name="BtnDishes" Click="BtnDishes_Click">Блюда</Button>
+                    <Button x:Name="BtnIngredients" Click="BtnIngredients_Click">Ингредиенты</Button>
+                    <Button x:Name="BtnCaptcha" Click="BtnCaptcha_Click">Капча</Button>
+                </StackPanel>
+                <Button x:Name="BtnExit" Click="BtnExit_Click" VerticalAlignment="Bottom">Выход</Button>
+            </Grid>
+        </Grid>
+
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label FontSize="40" Margin="10" FontWeight="SemiBold" Content="{Binding ElementName=MainFrame, Path=Content.Title}"></Label>
+            <Grid Background="{StaticResource MainOrange}" Height="15" VerticalAlignment="Bottom" Margin="10"></Grid>
+
+            <Frame Grid.Row="1" x:Name="MainFrame" Margin="10" NavigationUIVisibility="Hidden"></Frame>
+        </Grid>
+
+    </Grid>
+</Window>

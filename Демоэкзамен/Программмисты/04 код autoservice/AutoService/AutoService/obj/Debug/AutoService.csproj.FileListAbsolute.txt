@@ -1,0 +1,95 @@
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.csproj.AssemblyReference.cache
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\MainWindow.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ClientServiceWindow.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\InputBoxWindow.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\MiscWindow.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ServiceWindow.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\App.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService_MarkupCompile.cache
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService_MarkupCompile.lref
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService_Content.g.cs
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\AutoService.exe.config
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\AutoService.exe
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\AutoService.pdb
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.dll
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.xml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\App.baml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\MainWindow.baml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ClientServiceWindow.baml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\InputBoxWindow.baml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\MiscWindow.baml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ServiceWindow.baml
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.g.resources
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.Properties.Resources.resources
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.csproj.GenerateResource.cache
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.csproj.CoreCompileInputs.cache
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.exe
+D:\worldskills\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.pdb
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\AutoService.exe.config
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\AutoService.exe
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\AutoService.pdb
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.dll
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.xml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.csproj.AssemblyReference.cache
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\MainWindow.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ClientServiceWindow.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\InputBoxWindow.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\MiscWindow.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ServiceWindow.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\App.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService_Content.g.cs
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService_MarkupCompile.cache
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService_MarkupCompile.lref
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\App.baml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\MainWindow.baml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ClientServiceWindow.baml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\InputBoxWindow.baml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\MiscWindow.baml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\windows\ServiceWindow.baml
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.g.resources
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.Properties.Resources.resources
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.csproj.GenerateResource.cache
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.csproj.CoreCompileInputs.cache
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.exe
+D:\worldskills\студенты\yotc-master\yotc-master\AutoService\AutoService\obj\Debug\AutoService.pdb
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\AutoService.exe.config
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\AutoService.exe
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\AutoService.pdb
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.csproj.SuggestedBindingRedirects.cache
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\MainWindow.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\ClientServiceWindow.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\InputBoxWindow.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\MiscWindow.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\ServiceWindow.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService_Content.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService_MarkupCompile.cache
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService_MarkupCompile.lref
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\App.baml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\MainWindow.baml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\ClientServiceWindow.baml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\InputBoxWindow.baml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\MiscWindow.baml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\windows\ServiceWindow.baml
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.g.resources
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.Properties.Resources.resources
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.csproj.CopyComplete
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.exe
+D:\worldskills\варианты заданий\4 код autoservice\AutoService\AutoService\obj\Debug\AutoService.pdb

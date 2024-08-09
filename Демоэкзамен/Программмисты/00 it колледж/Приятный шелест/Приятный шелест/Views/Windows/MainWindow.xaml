@@ -1,0 +1,19 @@
+﻿<Window x:Class="Приятный_шелест.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Приятный_шелест"
+        mc:Ignorable="d"
+        Icon="/Resource/Приятный шелест.png"
+        Title="{Binding ElementName=frMain,Path=Content.Title}" Height="620" Width="1080"
+        MinHeight="620" MinWidth="1080">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.9*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnBack" Click="btnBack_Click" Content="Назад"  HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Frame Grid.Row="1" x:Name="frMain" ContentRendered="frMain_ContentRendered" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

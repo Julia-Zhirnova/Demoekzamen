@@ -1,0 +1,150 @@
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Pages\AgentsPage.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Pages\ClientsPage.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\App.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\CRUD.exe.config
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\CRUD.exe
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\CRUD.pdb
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\App.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Pages\AgentsPage.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Pages\ClientsPage.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.g.resources
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.exe
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.pdb
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Pages\MainPage.g.cs
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\Pages\MainPage.baml
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.CopyComplete
+C:\Users\User\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\CRUD.exe.config
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\CRUD.exe
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\CRUD.pdb
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\EntityFramework.dll
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\EntityFramework.xml
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\17400\CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\MainWindow.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\ClientPage.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\EditClientsPage.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\AgentPage.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\App.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\App.baml
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\MainWindow.baml
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\ClientPage.baml
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.baml
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\EditClientsPage.baml
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\Pages\AgentPage.baml
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.g.resources
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.exe
+D:\worldskills\17400\CRUD\CRUD\obj\Debug\CRUD.pdb
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\CRUD.exe.config
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\CRUD.exe
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\CRUD.pdb
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\MainWindow.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\ClientPage.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\EditClientsPage.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\AgentPage.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\App.baml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\MainWindow.baml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\ClientPage.baml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.baml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\EditClientsPage.baml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\Pages\AgentPage.baml
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.g.resources
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.exe
+D:\worldskills\варианты заданий\trueskills\CRUD\CRUD\obj\Debug\CRUD.pdb
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\CRUD.exe.config
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\CRUD.exe
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\CRUD.pdb
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\MainWindow.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\ClientPage.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditClientsPage.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\AgentPage.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\App.baml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\MainWindow.baml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\ClientPage.baml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.baml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditClientsPage.baml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\Pages\AgentPage.baml
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.g.resources
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.exe
+D:\worldskills\варианты заданий\trueskills\2 CRUD\CRUD\obj\Debug\CRUD.pdb
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\CRUD.exe.config
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\CRUD.exe
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\CRUD.pdb
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.dll
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.xml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\bin\Debug\ru\EntityFramework.resources.dll
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\MainWindow.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\ClientPage.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditClientsPage.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\AgentPage.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\App.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD_Content.g.cs
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD_MarkupCompile.lref
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\App.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\MainWindow.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\ClientPage.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditAgentsPage.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\EditClientsPage.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\Pages\AgentPage.baml
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.g.resources
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.csproj.CopyComplete
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.exe
+C:\программирование\демоэкзамен\Demoekzamen\5 trueskills\2 CRUD\CRUD\obj\Debug\CRUD.pdb

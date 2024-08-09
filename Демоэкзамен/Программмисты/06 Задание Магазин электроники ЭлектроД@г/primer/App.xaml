@@ -1,0 +1,23 @@
+﻿<Application x:Class="DesktopSaleApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DesktopSaleApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"></Setter>
+            <Setter Property="Background" Value="#03DAC5"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"></Setter>
+            <Setter Property="Background" Value="#FEFFB7"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Serifiqo 4F Free Capitals"></Setter>
+            
+        </Style>
+    </Application.Resources>
+</Application>

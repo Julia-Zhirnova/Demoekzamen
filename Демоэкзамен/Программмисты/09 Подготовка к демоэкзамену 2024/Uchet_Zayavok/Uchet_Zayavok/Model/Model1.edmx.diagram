@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b24ad625c0d942918cb8688fcccd7403" Name="Diagram1">
+        <EntityTypeShape EntityType="uchet_zayavokModel.Client" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Ispolnitel" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Neisp" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Oborud" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Otchet" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Role" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Status" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Users" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Zapchast" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchet_zayavokModel.Zayavka" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_zayavka_client" ManuallyRouted="false" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_zayavka_Ispolnitel" ManuallyRouted="false" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_zayavka_neisp" ManuallyRouted="false" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_zayavka_oborud" ManuallyRouted="false" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_Users_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_zayavka_status" ManuallyRouted="false" />
+        <AssociationConnector Association="uchet_zayavokModel.FK_Zayavka_Zapchast" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

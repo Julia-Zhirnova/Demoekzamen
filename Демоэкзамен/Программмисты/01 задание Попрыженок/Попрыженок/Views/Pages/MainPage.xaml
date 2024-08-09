@@ -1,0 +1,136 @@
+﻿<Page x:Class="Попрыженок.Views.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Попрыженок.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage" Loaded="Page_Loaded">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <DataGrid 
+            Grid.Row="1" 
+            Name="AgentsDataGrid" 
+            AutoGenerateColumns="False"
+            MouseLeftButtonDown="AgentsDataGrid_MouseLeftButtonDown" SelectionChanged="AgentsDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel>
+                                    <Image
+                                        Width="50"
+                                        Source="{Binding ImageAgent}">
+
+                                    </Image>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical" Margin="0 30 0 0">
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Title}" DataContext="{Binding AgentType}" FontFamily="Comic Sans MS" FontSize="15"
+                                                   Foreground="{Binding Rsc}"/>
+                                        <TextBlock Text="{Binding Title}" Margin="20 0 0 0" FontFamily="Comic Sans MS" FontSize="15"
+                                                   Foreground="{Binding Rsc}"/>
+
+                                    </StackPanel>
+                                    <StackPanel >
+                                        <TextBlock Text="{Binding Phone}" 
+                                                   FontFamily="Comic Sans MS" Margin="20 0 0 0" 
+                                                   FontSize="15" Foreground="{Binding Rsc}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="{Binding Priority}" 
+                                               Foreground="{Binding Rsc}"
+                                               ContentStringFormat="Приоритетность: {0}" 
+                                               Margin="10 0 0 0" FontFamily="Comic Sans MS" 
+                                               FontSize="15"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Width="200" HorizontalAlignment="Right">
+                                    <TextBlock
+                                        Text="{Binding Discount}"
+                                        Foreground="{Binding Rsc}"
+                                        FontSize="30" HorizontalAlignment="Right"
+                                        Margin="0 0 0 0"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="2"
+                Height="30"
+                Width="150"
+                Content="Добавить"
+                Name="AddButton"
+                Click="AddButton_Click"
+                FontFamily="Comic Sans MS"
+                Margin="100 0 0 0"
+                Background="#43DCFE"></Button>
+        <Button Grid.Row="2"
+                Height="30"
+                Width="150"
+                Content="Удалить"
+                Name="DeleteButton"
+                Click="DeleteButton_Click"
+                HorizontalAlignment="Center"
+                FontFamily="Comic Sans MS"
+                Margin="500 0 0 0"
+                Background="#43DCFE">
+            
+        </Button>
+        <TextBlock
+            Name="AmountAgents"
+            Grid.Row="2"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Margin="0 0 20 0"/>
+        <TextBlock Grid.Row="0"
+                   Text="Поиск"
+                   VerticalAlignment="Center"
+                   Margin="20 0 0 0"
+                   FontFamily="Comic Sans MS"/>
+        <TextBox Height="30"
+                 Width="150"
+                 HorizontalAlignment="Left"
+                 Margin="70 0 0 0"
+                 Name="SearchTextBox"
+                 FontFamily="Comic Sans MS"
+                 TextChanged="SearchTextBox_TextChanged"
+                 />
+        <ComboBox Height="30"
+                 Width="200"
+                 Name="SortComboBox"
+                  SelectionChanged="SortComboBox_SelectionChanged">
+            <ComboBoxItem>Наименование (по возрастанию)</ComboBoxItem>
+            <ComboBoxItem>Наименование (по убыванию)</ComboBoxItem>
+            <ComboBoxItem>Размер скидки (по возрастанию)</ComboBoxItem>
+            <ComboBoxItem>Размер скидки (по убыванию)</ComboBoxItem>
+            <ComboBoxItem>Приоритет (по убыванию)</ComboBoxItem>
+            <ComboBoxItem>Приоритет (по убыванию)</ComboBoxItem>
+        </ComboBox>
+        <ComboBox
+            Name="AgentTypeComboBox"
+            Height="30"
+            Width="200"
+            HorizontalAlignment="Right"
+            Margin="0 0 20 0"
+            SelectionChanged="AgentTypeComboBox_SelectionChanged"/>
+        <StackPanel Grid.Row="2" Width="300" Orientation="Horizontal"
+                    HorizontalAlignment="Left" Margin="0 0 0 0">
+            <Button Height="30" Width="100" Content="назад" x:Name="btnBack" Click="btnBack_Click" Background="White"></Button>
+            <StackPanel x:Name="spPages" Orientation="Horizontal">
+                
+            </StackPanel>
+            <Button Width="100" Height="30" x:Name="btnNext" Content="вперед" Click="btnNext_Click" Background="White"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

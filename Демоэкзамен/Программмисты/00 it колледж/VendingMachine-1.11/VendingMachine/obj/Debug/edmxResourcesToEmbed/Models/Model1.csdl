@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Coin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Denomination" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="VendingMachineCoins" Relationship="Self.FK_dbo_VendingMachineCoins_dbo_Coins_CoinsId" FromRole="Coins" ToRole="VendingMachineCoins" />
+  </EntityType>
+  <EntityType Name="Drink">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Cost" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <NavigationProperty Name="VendingMachineDrinks" Relationship="Self.FK_dbo_VendingMachineDrinks_dbo_Drinks_DrinksId" FromRole="Drinks" ToRole="VendingMachineDrinks" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="VendingMachineCoin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendingMachineId" Type="Int32" Nullable="false" />
+    <Property Name="CoinsId" Type="Int32" Nullable="false" />
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Coin" Relationship="Self.FK_dbo_VendingMachineCoins_dbo_Coins_CoinsId" FromRole="VendingMachineCoins" ToRole="Coins" />
+    <NavigationProperty Name="VendingMachine" Relationship="Self.FK_dbo_VendingMachineCoins_dbo_VendingMachines_VendingMachineId" FromRole="VendingMachineCoins" ToRole="VendingMachines" />
+  </EntityType>
+  <EntityType Name="VendingMachineDrink">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendingMachineId" Type="Int32" Nullable="false" />
+    <Property Name="DrinksId" Type="Int32" Nullable="false" />
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Drink" Relationship="Self.FK_dbo_VendingMachineDrinks_dbo_Drinks_DrinksId" FromRole="VendingMachineDrinks" ToRole="Drinks" />
+    <NavigationProperty Name="VendingMachine" Relationship="Self.FK_dbo_VendingMachineDrinks_dbo_VendingMachines_VendingMachineId" FromRole="VendingMachineDrinks" ToRole="VendingMachines" />
+  </EntityType>
+  <EntityType Name="VendingMachine">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SecretCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="VendingMachineCoins" Relationship="Self.FK_dbo_VendingMachineCoins_dbo_VendingMachines_VendingMachineId" FromRole="VendingMachines" ToRole="VendingMachineCoins" />
+    <NavigationProperty Name="VendingMachineDrinks" Relationship="Self.FK_dbo_VendingMachineDrinks_dbo_VendingMachines_VendingMachineId" FromRole="VendingMachines" ToRole="VendingMachineDrinks" />
+  </EntityType>
+  <Association Name="FK_dbo_VendingMachineCoins_dbo_Coins_CoinsId">
+    <End Role="Coins" Type="Self.Coin" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VendingMachineCoins" Type="Self.VendingMachineCoin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Coins">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendingMachineCoins">
+        <PropertyRef Name="CoinsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_VendingMachineDrinks_dbo_Drinks_DrinksId">
+    <End Role="Drinks" Type="Self.Drink" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VendingMachineDrinks" Type="Self.VendingMachineDrink" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drinks">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendingMachineDrinks">
+        <PropertyRef Name="DrinksId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_VendingMachineCoins_dbo_VendingMachines_VendingMachineId">
+    <End Role="VendingMachines" Type="Self.VendingMachine" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VendingMachineCoins" Type="Self.VendingMachineCoin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendingMachines">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendingMachineCoins">
+        <PropertyRef Name="VendingMachineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_VendingMachineDrinks_dbo_VendingMachines_VendingMachineId">
+    <End Role="VendingMachines" Type="Self.VendingMachine" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VendingMachineDrinks" Type="Self.VendingMachineDrink" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendingMachines">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendingMachineDrinks">
+        <PropertyRef Name="VendingMachineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Coins" EntityType="Self.Coin" />
+    <EntitySet Name="Drinks" EntityType="Self.Drink" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="VendingMachineCoins" EntityType="Self.VendingMachineCoin" />
+    <EntitySet Name="VendingMachineDrinks" EntityType="Self.VendingMachineDrink" />
+    <EntitySet Name="VendingMachines" EntityType="Self.VendingMachine" />
+    <AssociationSet Name="FK_dbo_VendingMachineCoins_dbo_Coins_CoinsId" Association="Self.FK_dbo_VendingMachineCoins_dbo_Coins_CoinsId">
+      <End Role="Coins" EntitySet="Coins" />
+      <End Role="VendingMachineCoins" EntitySet="VendingMachineCoins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_VendingMachineDrinks_dbo_Drinks_DrinksId" Association="Self.FK_dbo_VendingMachineDrinks_dbo_Drinks_DrinksId">
+      <End Role="Drinks" EntitySet="Drinks" />
+      <End Role="VendingMachineDrinks" EntitySet="VendingMachineDrinks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_VendingMachineCoins_dbo_VendingMachines_VendingMachineId" Association="Self.FK_dbo_VendingMachineCoins_dbo_VendingMachines_VendingMachineId">
+      <End Role="VendingMachines" EntitySet="VendingMachines" />
+      <End Role="VendingMachineCoins" EntitySet="VendingMachineCoins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_VendingMachineDrinks_dbo_VendingMachines_VendingMachineId" Association="Self.FK_dbo_VendingMachineDrinks_dbo_VendingMachines_VendingMachineId">
+      <End Role="VendingMachines" EntitySet="VendingMachines" />
+      <End Role="VendingMachineDrinks" EntitySet="VendingMachineDrinks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

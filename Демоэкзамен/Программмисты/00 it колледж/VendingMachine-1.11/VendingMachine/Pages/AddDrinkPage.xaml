@@ -1,0 +1,62 @@
+﻿<Page x:Class="VendingMachine.Pages.AddDrinkPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:VendingMachine.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="AddDrinkPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Height="50" Background="#52525B">
+            <Button x:Name="BtnBack" Grid.Column="1" Height="50" Width="50" Style="{StaticResource btnTransparent}" Click="BtnBack_Click">
+                <Image Source="/Resources/right-arrow_24x24.png" Height="18"/>
+            </Button>
+            <TextBlock Text="Добавить напиток" FontSize="24" Foreground="#61DAFB" VerticalAlignment="Center" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" Height="28" Margin="0,0,0,10" HorizontalAlignment="Center">
+                    <TextBlock Text="Наименование:" Width="125" Height="20"/>
+                    <TextBox Text="{Binding Name}" Width="200"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="28" Margin="0,0,0,10" HorizontalAlignment="Center">
+                    <TextBlock Text="Цена (руб):" Width="125"/>
+                    <TextBox Text="{Binding Path=Cost, StringFormat={}{0:N0}}" Width="200"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="28" Margin="0,0,0,10" HorizontalAlignment="Center">
+                    <TextBlock Text="Количество (шт):" Width="125" Height="20"/>
+                    <TextBox Text="{Binding VendingMachineDrink.Count}" Width="200"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Vertical" Margin="47,0,0,0">
+                    <Border  Width="100" Height="100" BorderBrush="#FFABADB3" BorderThickness="1" Margin="0,0,0,5">
+                        <Image Name="PreviewImage">
+                            <Image.Source>
+                                <Binding Path="Image">
+                                    <Binding.TargetNullValue>
+                                        <ImageSource>../Resources/EmptyImage.jpg</ImageSource>
+                                    </Binding.TargetNullValue>
+                                </Binding>
+                            </Image.Source>
+                        </Image>
+                    </Border>
+                    <Button Name="BtnAddImg" Content="Выбрать фото" Click="BtnAddImg_Click" Width="100"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <Grid Grid.Row="2" Background="#52525B">
+            <Button Grid.Row="2" Content="Сохранить" Height="30" Width="200" Style="{StaticResource btnBorder}"/>
+        </Grid>
+    </Grid>
+</Page>

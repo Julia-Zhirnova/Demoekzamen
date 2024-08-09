@@ -1,0 +1,48 @@
+﻿<Window x:Class="Train.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Train"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="75"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="Login" Width="250" Height="25" Margin="12,0,531.6,12.2" VerticalAlignment="Bottom"></TextBox>
+        <TextBox x:Name="Password" Width="250" Height="25" Margin="274,0,269.6,12.2" VerticalAlignment="Bottom"></TextBox>
+        <Button Width="100" Height="25" Margin="533,39,160.6,11.2" Click="Log">Войти</Button>
+        <ListView x:Name="ListGrid" Grid.Row="1">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid> 
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0">
+                        <TextBlock Text="{Binding  login}"></TextBlock>
+                            <TextBlock Text="{Binding  pass}"></TextBlock>
+                            <Image Width="100" Height="100">
+                                <Image.Source>
+                                    <Binding Path="Src">
+                                        <Binding.TargetNullValue>
+                                            <ImageSource>../Images/images.jpg</ImageSource>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

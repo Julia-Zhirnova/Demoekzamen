@@ -1,0 +1,150 @@
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\bin\Debug\ServiceApp.exe.config
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\bin\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\bin\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp.g.resources
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\Pages\DataPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\Pages\DataPage.baml
+D:\__8 СЕМЕСТР\Жирнова\4_25.01.22\ServiceApp-1\ServiceApp\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\ServiceApp.exe.config
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\Pages\DataPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\Pages\Template.g.cs
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\Pages\DataPage.baml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\Pages\Template.baml
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.g.resources
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\6_27.01.22\ServiceApp-4\ServiceApp\obj\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\ServiceApp.exe.config
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\Pages\DataPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\Pages\Template.g.cs
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\Pages\DataPage.baml
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\Pages\Template.baml
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.g.resources
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\7_01.02.22\ServiceApp-5\ServiceApp\obj\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\Pages\DataPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\Pages\Template.g.cs
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.exe.config
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.exe
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.pdb
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\Pages\DataPage.baml
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\Pages\Template.baml
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.g.resources
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\9_03.02.22\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.CopyComplete
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.exe.config
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.exe
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.pdb
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.dll
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.xml
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.AssemblyReference.cache
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\MainWindow.g.cs
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\DataPage.g.cs
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\Template.g.cs
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\App.g.cs
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_Content.g.cs
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.cache
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.lref
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\App.baml
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\MainWindow.baml
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\DataPage.baml
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\Template.baml
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.g.resources
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.Properties.Resources.resources
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.GenerateResource.cache
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.exe
+D:\worldskills\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.pdb
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.exe.config
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.exe
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ServiceApp.pdb
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.dll
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.xml
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.AssemblyReference.cache
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\MainWindow.g.cs
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\DataPage.g.cs
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\Template.g.cs
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\App.g.cs
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_Content.g.cs
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.cache
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp_MarkupCompile.lref
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\App.baml
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\MainWindow.baml
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\DataPage.baml
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\Pages\Template.baml
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.g.resources
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.Properties.Resources.resources
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.GenerateResource.cache
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.csproj.CoreCompileInputs.cache
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.exe
+D:\worldskills\студенты\ServiceApp-7\ServiceApp-7\ServiceApp\obj\Debug\ServiceApp.pdb

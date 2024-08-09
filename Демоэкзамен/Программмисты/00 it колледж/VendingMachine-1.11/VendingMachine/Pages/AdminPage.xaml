@@ -1,0 +1,41 @@
+﻿<Page x:Class="VendingMachine.Pages.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:VendingMachine.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="AdminPage">
+
+    <Grid Background="#52525B">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="0 0 0 2" BorderBrush="#61DAFB">
+            <Grid Grid.Row="0" Height="50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <Image Source="/VendingMachine;component/Resources/logo512.png" Margin="15,5,35,5" HorizontalAlignment="Left" />
+                    <TextBlock Text="Админская панель" FontSize="24" Foreground="#61DAFB" VerticalAlignment="Center" />
+                </StackPanel>
+
+                <Button x:Name="BtnExit" Grid.Column="1" Height="50" Width="50" Style="{StaticResource btnTransparent}" Click="BtnExit_Click">
+                    <Image Source="/Resources/logout.png" Height="18" />
+                </Button>
+            </Grid>
+        </Border>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <Button Name="BtnMoney" Content="Монеты" Height="30" Width="200" Margin="0,0,0,16" Style="{StaticResource btnBorder}" Click="BtnMoney_Click"/>
+            <Button Name="BtnDrinks" Content="Напитки" Height="30" Width="200" Margin="0,0,0,16" Style="{StaticResource btnBorder}" Click="BtnDrinks_Click"/>
+            <Button Name="BtnReport" Content="Отчет" Height="30" Width="200" Style="{StaticResource btnBorder}" Click="BtnReport_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

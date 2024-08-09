@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище user8ModelContainer" CdmEntityContainer="user8Entities">
+    <EntitySetMapping Name="AGENT">
+      <EntityTypeMapping TypeName="user8Model.AGENT">
+        <MappingFragment StoreEntitySet="AGENT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AGENTTYPEID" ColumnName="AGENTTYPEID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="PHOTOPATH" ColumnName="PHOTOPATH" />
+          <ScalarProperty Name="BUSINESSADDRESS" ColumnName="BUSINESSADDRESS" />
+          <ScalarProperty Name="DIRECTORLASTNAME" ColumnName="DIRECTORLASTNAME" />
+          <ScalarProperty Name="DIRECTORFIRSTNAME" ColumnName="DIRECTORFIRSTNAME" />
+          <ScalarProperty Name="DIRECTORMIDDLENAME" ColumnName="DIRECTORMIDDLENAME" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="KPP" ColumnName="KPP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AGENTHISTORY">
+      <EntityTypeMapping TypeName="user8Model.AGENTHISTORY">
+        <MappingFragment StoreEntitySet="AGENTHISTORY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PRIORITY" ColumnName="PRIORITY" />
+          <ScalarProperty Name="AGENTID" ColumnName="AGENTID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AGENTTYPE">
+      <EntityTypeMapping TypeName="user8Model.AGENTTYPE">
+        <MappingFragment StoreEntitySet="AGENTTYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATEGORY">
+      <EntityTypeMapping TypeName="user8Model.CATEGORY">
+        <MappingFragment StoreEntitySet="CATEGORY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLOYEE">
+      <EntityTypeMapping TypeName="user8Model.EMPLOYEE">
+        <MappingFragment StoreEntitySet="EMPLOYEE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LASTNAME" ColumnName="LASTNAME" />
+          <ScalarProperty Name="FIRSTNAME" ColumnName="FIRSTNAME" />
+          <ScalarProperty Name="MIDDLENAME" ColumnName="MIDDLENAME" />
+          <ScalarProperty Name="DATEOFBIRTH" ColumnName="DATEOFBIRTH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GOOD">
+      <EntityTypeMapping TypeName="user8Model.GOOD">
+        <MappingFragment StoreEntitySet="GOOD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="GOODTYPEID" ColumnName="GOODTYPEID" />
+          <ScalarProperty Name="ARTICLE" ColumnName="ARTICLE" />
+          <ScalarProperty Name="PEOPLECOUNT" ColumnName="PEOPLECOUNT" />
+          <ScalarProperty Name="FLOORNUMBER" ColumnName="FLOORNUMBER" />
+          <ScalarProperty Name="MINPRICE" ColumnName="MINPRICE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GOODPARAMETR">
+      <EntityTypeMapping TypeName="user8Model.GOODPARAMETR">
+        <MappingFragment StoreEntitySet="GOODPARAMETR">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GOODID" ColumnName="GOODID" />
+          <ScalarProperty Name="PARAMETERID" ColumnName="PARAMETERID" />
+          <ScalarProperty Name="VALUE" ColumnName="VALUE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GOODTYPE">
+      <EntityTypeMapping TypeName="user8Model.GOODTYPE">
+        <MappingFragment StoreEntitySet="GOODTYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INFORMATION">
+      <EntityTypeMapping TypeName="user8Model.INFORMATION">
+        <MappingFragment StoreEntitySet="INFORMATION">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EMPLOYEEID" ColumnName="EMPLOYEEID" />
+          <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARAMETER">
+      <EntityTypeMapping TypeName="user8Model.PARAMETER">
+        <MappingFragment StoreEntitySet="PARAMETER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROVIDER">
+      <EntityTypeMapping TypeName="user8Model.PROVIDER">
+        <MappingFragment StoreEntitySet="PROVIDER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="AGENTTYPEID" ColumnName="AGENTTYPEID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROVIDERGOOD">
+      <EntityTypeMapping TypeName="user8Model.PROVIDERGOOD">
+        <MappingFragment StoreEntitySet="PROVIDERGOOD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROVIDERID" ColumnName="PROVIDERID" />
+          <ScalarProperty Name="GOODID" ColumnName="GOODID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLE">
+      <EntityTypeMapping TypeName="user8Model.ROLE">
+        <MappingFragment StoreEntitySet="ROLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SALECONTRACT">
+      <EntityTypeMapping TypeName="user8Model.SALECONTRACT">
+        <MappingFragment StoreEntitySet="SALECONTRACT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GOODID" ColumnName="GOODID" />
+          <ScalarProperty Name="AGENTID" ColumnName="AGENTID" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="COUNT" ColumnName="COUNT" />
+          <ScalarProperty Name="COMPLETE" ColumnName="COMPLETE" />
+          <ScalarProperty Name="EMPLOYEEID" ColumnName="EMPLOYEEID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUPPLY">
+      <EntityTypeMapping TypeName="user8Model.SUPPLY">
+        <MappingFragment StoreEntitySet="SUPPLY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PROVIDERPRODUCTID" ColumnName="PROVIDERPRODUCTID" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="COUNT" ColumnName="COUNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="user8Model.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER">
+      <EntityTypeMapping TypeName="user8Model.USER">
+        <MappingFragment StoreEntitySet="USER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="ROLEID" ColumnName="ROLEID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VISIT">
+      <EntityTypeMapping TypeName="user8Model.VISIT">
+        <MappingFragment StoreEntitySet="VISIT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EMPLOYEEID" ColumnName="EMPLOYEEID" />
+          <ScalarProperty Name="DATEENTER" ColumnName="DATEENTER" />
+          <ScalarProperty Name="DATEEXIT" ColumnName="DATEEXIT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

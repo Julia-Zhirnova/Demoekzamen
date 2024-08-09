@@ -1,0 +1,97 @@
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MainWindow.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageNewIngredient.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\App.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes_Content.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.cache
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.lref
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe.config
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\MyRecipes.pdb
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\EntityFramework.dll
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\EntityFramework.xml
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\17400\MyRecipes\MyRecipes\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.g.cs
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\App.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MainWindow.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageNewIngredient.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.baml
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes.g.resources
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes.Properties.Resources.resources
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.GenerateResource.cache
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CoreCompileInputs.cache
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes.exe
+D:\worldskills\17400\MyRecipes\MyRecipes\obj\Debug\MyRecipes.pdb
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe.config
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\MyRecipes.pdb
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MainWindow.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageNewIngredient.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes_Content.g.cs
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.cache
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.lref
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\App.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MainWindow.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageNewIngredient.baml
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.g.resources
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.Properties.Resources.resources
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.exe
+D:\worldskills\варианты заданий\trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.pdb
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe.config
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\MyRecipes.pdb
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MainWindow.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageNewIngredient.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes_Content.g.cs
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.cache
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.lref
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\App.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MainWindow.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\Pages\PageNewIngredient.baml
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.g.resources
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.Properties.Resources.resources
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.exe
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.pdb
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.SuggestedBindingRedirects.cache
+D:\worldskills\варианты заданий\5 trueskills\3 MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CopyComplete

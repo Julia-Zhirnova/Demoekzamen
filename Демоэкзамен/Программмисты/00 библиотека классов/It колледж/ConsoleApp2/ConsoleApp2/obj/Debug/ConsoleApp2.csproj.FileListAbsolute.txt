@@ -1,0 +1,24 @@
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\ushka\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\303-0\source\repos\Жирнова ЮВ\жирнова\Attestation\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\ushka\OneDrive\Рабочий стол\Новая папка (2)\Library\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

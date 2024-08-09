@@ -1,0 +1,144 @@
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe.config
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csprojAssemblyReference.cache
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.g.cs
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\App.g.cs
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.cache
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.lref
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\App.baml
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.baml
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.g.resources
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный_шелест.Properties.Resources.resources
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.GenerateResource.cache
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CoreCompileInputs.cache
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.dll
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.xml
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_Content.g.cs
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CopyComplete
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.g.cs
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.baml
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.g.cs
+C:\Users\WSR\Desktop\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.baml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe.config
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.dll
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.xml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csprojAssemblyReference.cache
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.g.cs
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.g.cs
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.g.cs
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\App.g.cs
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_Content.g.cs
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.cache
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.lref
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\App.baml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.baml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.baml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.baml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.g.resources
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный_шелест.Properties.Resources.resources
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.GenerateResource.cache
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CoreCompileInputs.cache
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CopyComplete
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\User1\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.g.cs
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.g.cs
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.g.cs
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\App.g.cs
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_Content.g.cs
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.cache
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.lref
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe.config
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.dll
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.xml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\App.baml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.baml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.baml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.baml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.g.resources
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный_шелест.Properties.Resources.resources
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.GenerateResource.cache
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CoreCompileInputs.cache
+C:\Users\WSR\Desktop\User2\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CopyComplete
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csprojAssemblyReference.cache
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.g.cs
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.g.cs
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.g.cs
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\App.g.cs
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_Content.g.cs
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.cache
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.lref
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe.config
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.pdb
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.dll
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.xml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\App.baml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.baml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.baml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.baml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.g.resources
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный_шелест.Properties.Resources.resources
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.GenerateResource.cache
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CoreCompileInputs.cache
+C:\Users\WSR\Desktop\User8\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CopyComplete
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe.config
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.exe
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\Приятный шелест.pdb
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.dll
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.xml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.AssemblyReference.cache
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.g.cs
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.g.cs
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.g.cs
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\App.g.cs
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_Content.g.cs
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.cache
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест_MarkupCompile.lref
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\App.baml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Pages\AgentPage.baml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditAgentWindow.baml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\EditPriorityWindow.baml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.g.resources
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный_шелест.Properties.Resources.resources
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.GenerateResource.cache
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.csproj.CopyComplete
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.exe
+C:\Users\Max\source\repos\Приятный шелест\Приятный шелест\obj\Debug\Приятный шелест.pdb

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2337093554504203b3834c37f5057f1b" Name="Diagram1">
+        <EntityTypeShape EntityType="user10Model.Activities" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Aircrafts" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Airports" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Countries" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Offices" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Roles" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Routes" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Schedules" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user10Model.Users" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="user10Model.FK_Activities_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Schedule_AirCraft" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_AirPort_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Routes_Airports2" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Routes_Airports3" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Office_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Users_Offices" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="user10Model.FK_Schedule_Routes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

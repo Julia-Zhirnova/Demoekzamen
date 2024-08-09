@@ -1,0 +1,29 @@
+﻿<Window x:Class="AMONIC.Airlines.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AMONIC.Airlines"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="400" MinHeight="450" MinWidth="600" WindowStartupLocation="CenterScreen" 
+        Style="{StaticResource DefaultWindow}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Margin="50" Source="DS2017_TP09_2_colors_with_bg.png" Grid.ColumnSpan="2"></Image>
+        <TextBlock Style="{StaticResource RightSideTextBlock}" Grid.Row="1" Text="Username:"></TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="1" Name="TbLogin"></TextBox>
+        <TextBlock Style="{StaticResource RightSideTextBlock}" Grid.Row="2" Text="Password:"></TextBlock>
+        <PasswordBox Grid.Column="1" Grid.Row="2" Name="PbPassword"></PasswordBox>
+        <Button Grid.Row="3" Name="BtnLogin" Content="Login" Click="BtnLogin_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Name="BtnExit" Content="Exit" Click="BtnExit_Click"></Button>
+    </Grid>
+</Window>

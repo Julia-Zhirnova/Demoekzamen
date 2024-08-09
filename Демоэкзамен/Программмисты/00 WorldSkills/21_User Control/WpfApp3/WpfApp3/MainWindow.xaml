@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:RhombusControl Header="Поздравление 1" Description="Сообщение с поздравлением 1" ColoredSource="Assets/IMG_1.jpg"></local:RhombusControl>
+            <local:RhombusControl Header="Поздравление 2" Description="Сообщение с поздравлением 2" ColoredSource="Assets/IMG_2.jpg"></local:RhombusControl>
+            <local:RhombusControl Header="Поздравление 3" Description="Сообщение с поздравлением 3" ColoredSource="Assets/IMG_3.jpg"></local:RhombusControl>
+            <local:RhombusControl Header="Поздравление 4" Description="Сообщение с поздравлением 4" ColoredSource="Assets/IMG_4.jpg"></local:RhombusControl>
+        </StackPanel>
+    </Grid>
+</Window>

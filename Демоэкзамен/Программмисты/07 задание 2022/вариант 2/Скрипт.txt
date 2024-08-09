@@ -1,0 +1,837 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [Client](
+	[id] [int] NOT NULL,
+	[name] [nvarchar](max) NOT NULL,
+	[passport_series] [int] NOT NULL,
+	[passport_number] [int] NOT NULL,
+	[date_of_birth] [date] NOT NULL,
+	[address] [nvarchar](max) NOT NULL,
+	[email] [nvarchar](max) NOT NULL,
+	[password] [nvarchar](max) NOT NULL,
+ CONSTRAINT [PK_Client] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [Order](
+	[id] [int] NOT NULL,
+	[code] [nvarchar](255) NOT NULL,
+	[creation_date] [date] NOT NULL,
+	[creation_time] [time](7) NOT NULL,
+	[client_id] [int] NOT NULL,
+	[status_id] [int] NOT NULL,
+	[closing_date] [date] NULL,
+	[rental_time] [int] NOT NULL,
+ CONSTRAINT [PK_Order] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [OrderServise](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[order_id] [int] NULL,
+	[service_id] [int] NULL,
+ CONSTRAINT [PK_OrderServise] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [OrderStatus](
+	[id] [int] NOT NULL,
+	[name] [nvarchar](max) NOT NULL,
+ CONSTRAINT [PK_OrderStatus] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [Role](
+	[id] [int] NOT NULL,
+	[name] [nvarchar](max) NOT NULL,
+ CONSTRAINT [PK_Role] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [Service](
+	[id] [int] NOT NULL,
+	[name] [nvarchar](max) NOT NULL,
+	[code] [nvarchar](50) NOT NULL,
+	[cost] [decimal](18, 2) NOT NULL,
+ CONSTRAINT [PK_Service] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [Staff](
+	[id] [int] NOT NULL,
+	[role_id] [int] NOT NULL,
+	[name] [nvarchar](max) NOT NULL,
+	[photo] [nvarchar](max) NULL,
+	[login] [nvarchar](max) NOT NULL,
+	[password] [nvarchar](max) NOT NULL,
+	[last_entry] [smalldatetime] NULL,
+	[successful_entry] [int] NOT NULL,
+ CONSTRAINT [PK_Staff] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462526, N'Фролов Андрей Иванович', 1180, 176596, CAST(N'2001-07-14' AS Date), N'344288, г. Санкт-Петербург, ул. Чехова, 1, кв. 34', N'gohufreilagrau-3818@yopmail.com', N'cl12345')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462527, N'Николаев Даниил Всеволодович', 2280, 223523, CAST(N'2001-02-10' AS Date), N'614164, г. Санкт-Петербург, ул. Степная, 30, кв. 75', N'xawugosune-1385@yopmail.com', N'cl12346')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462528, N'Снегирев Макар Иванович', 4560, 354155, CAST(N'1998-05-21' AS Date), N'394242, г. Санкт-Петербург, ул. Коммунистическая, 43, кв. 57', N'satrahuddusei-4458@yopmail.com', N'cl12347')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462529, N'Иванов Иван Ильич', 9120, 554296, CAST(N'1998-10-01' AS Date), N'660540, г. Санкт-Петербург, ул. Солнечная, 25, кв. 78', N'boippaxeufrepra-7093@yopmail.com', N'cl12348')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462530, N'Филиппова Анна Глебовна', 2367, 558134, CAST(N'1976-05-31' AS Date), N'125837, г. Санкт-Петербург, ул. Шоссейная, 40, кв. 92', N'zapramaxesu-7741@yopmail.com', N'cl12349')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462531, N'Иванов Михаил Владимирович', 7101, 669343, CAST(N'1985-11-04' AS Date), N'125703, г. Санкт-Петербург, ул. Партизанская, 49, кв. 84', N'rouzecroummegre-3899@yopmail.com', N'cl12350')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462532, N'Власов Дмитрий Александрович', 3455, 719630, CAST(N'1998-08-17' AS Date), N'625283, г. Санкт-Петербург, ул. Победы, 46, кв. 7', N'ziyeuddocrabri-4748@yopmail.com', N'cl12351')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462533, N'Серова Екатерина Львовна', 2377, 871623, CAST(N'1984-10-24' AS Date), N'614611, г. Санкт-Петербург, ул. Молодежная, 50, кв. 78', N'ketameissoinnei-1951@yopmail.com', N'cl12352')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462534, N'Борисова Ирина Ивановна', 8755, 921148, CAST(N'1976-10-14' AS Date), N'454311, г. Санкт-Петербург, ул. Новая, 19, кв. 78', N'yipraubaponou-5849@yopmail.com', N'cl12353')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462535, N'Зайцев Никита Артёмович', 4355, 104594, CAST(N'1999-10-14' AS Date), N'660007, г. Санкт-Петербург, ул. Октябрьская, 19, кв. 42', N'crapedocouca-3572@yopmail.com', N'cl12354')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462536, N'Медведев Святослав Евгеньевич', 2791, 114390, CAST(N'1985-07-13' AS Date), N'603036, г. Санкт-Петербург, ул. Садовая, 4, кв. 13', N'ceigoixakaunni-9227@yopmail.com', N'cl12355')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462537, N'Коротков Кирилл Алексеевич', 5582, 126286, CAST(N'1976-05-26' AS Date), N'450983, г. Санкт-Петербург, ул. Комсомольская, 26, кв. 60', N'yeimmeiwauzomo-7054@yopmail.com', N'cl12356')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462538, N'Калашникова Арина Максимовна', 2978, 133653, CAST(N'1999-08-13' AS Date), N'394782, г. Санкт-Петербург, ул. Чехова, 3, кв. 14', N'poleifenevi-1560@yopmail.com', N'cl12357')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462539, N'Минина Таисия Кирилловна', 7512, 141956, CAST(N'1985-10-13' AS Date), N'603002, г. Санкт-Петербург, ул. Дзержинского, 28, кв. 56', N'kauprezofautei-6607@yopmail.com', N'cl12358')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462540, N'Наумов Серафим Романович', 5046, 158433, CAST(N'1999-04-15' AS Date), N'450558, г. Санкт-Петербург, ул. Набережная, 30, кв. 71', N'quaffaullelourei-1667@yopmail.com', N'cl12359')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462541, N'Воробьева Василиса Евгеньевна', 2460, 169505, CAST(N'1999-01-13' AS Date), N'394060, г. Санкт-Петербург, ул. Фрунзе, 43, кв. 79', N'jsteele@rojas-robinson.net', N'cl12360')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462542, N'Калинин Александр Андреевич', 3412, 174593, CAST(N'1999-01-07' AS Date), N'410661, г. Санкт-Петербург, ул. Школьная, 50, кв. 53', N'vhopkins@lewis-mullen.com', N'cl12361')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462543, N'Кузнецова Милана Владиславовна', 4950, 183034, CAST(N'1999-01-24' AS Date), N'625590, г. Санкт-Петербург, ул. Коммунистическая, 20, кв. 34', N'nlewis@yahoo.com', N'cl12362')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462544, N'Фирсов Егор Романович', 5829, 219464, CAST(N'1993-09-02' AS Date), N'625683, г. Санкт-Петербург, ул. 8 Марта, 20, кв. 21', N'garciadavid@mckinney-mcbride.com', N'cl12363')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462545, N'Зимина Агния Александровна', 6443, 208059, CAST(N'1998-09-03' AS Date), N'400562, г. Санкт-Петербург, ул. Зеленая, 32, кв. 67', N'cbradley@castro.com', N'cl12364')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462546, N'Титов Андрей Глебович', 7079, 213265, CAST(N'1985-10-23' AS Date), N'614510, г. Санкт-Петербург, ул. Маяковского, 47, кв. 72', N'cuevascatherine@carlson.biz', N'cl12365')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462547, N'Орлов Николай Егорович', 8207, 522702, CAST(N'1985-07-27' AS Date), N'410542, г. Санкт-Петербург, ул. Светлая, 46, кв. 82', N'thomasmoore@wilson-singh.net', N'cl12366')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462548, N'Кузнецова Аиша Михайловна', 9307, 232158, CAST(N'1998-10-04' AS Date), N'620839, г. Санкт-Петербург, ул. Цветочная, 8, кв. 100', N'jessica84@hotmail.com', N'cl12367')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462549, N'Куликов Никита Георгиевич', 1357, 242839, CAST(N'1999-04-23' AS Date), N'443890, г. Санкт-Петербург, ул. Коммунистическая, 1, кв. 10', N'jessicapark@hotmail.com', N'cl12368')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462550, N'Карпова София Егоровна', 1167, 256636, CAST(N'1993-10-01' AS Date), N'603379, г. Санкт-Петербург, ул. Спортивная, 46, кв. 95', N'ginaritter@schneider-buchanan.com', N'cl12369')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462551, N'Смирнова Дарья Макаровна', 1768, 266986, CAST(N'1976-03-22' AS Date), N'603721, г. Санкт-Петербург, ул. Гоголя, 41, кв. 57', N'stephen99@yahoo.com', N'cl12370')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462552, N'Абрамова Александра Мироновна', 1710, 427875, CAST(N'1999-03-26' AS Date), N'410172, г. Санкт-Петербург, ул. Северная, 13, кв. 86', N'lopezlisa@hotmail.com', N'cl12371')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462553, N'Наумов Руслан Михайлович', 1806, 289145, CAST(N'1999-10-11' AS Date), N'420151, г. Санкт-Петербург, ул. Вишневая, 32, кв. 81', N'lori17@hotmail.com', N'cl12372')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462554, N'Бочаров Никита Матвеевич', 1587, 291249, CAST(N'1997-06-29' AS Date), N'125061, г. Санкт-Петербург, ул. Подгорная, 8, кв. 74', N'campbellkevin@gardner.com', N'cl12373')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462555, N'Соловьев Давид Ильич', 1647, 306372, CAST(N'1984-03-06' AS Date), N'630370, г. Санкт-Петербург, ул. Шоссейная, 24, кв. 81', N'morganhoward@clark.com', N'cl12374')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462556, N'Васильева Валерия Дмитриевна', 1742, 316556, CAST(N'1999-09-30' AS Date), N'614753, г. Санкт-Петербург, ул. Полевая, 35, кв. 39', N'carsontamara@gmail.com', N'cl12375')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462557, N'Макарова Василиса Андреевна', 1474, 326347, CAST(N'1999-04-08' AS Date), N'426030, г. Санкт-Петербург, ул. Маяковского, 44, кв. 93', N'kevinpatel@gmail.com', N'cl12376')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462558, N'Алексеев Матвей Викторович', 1452, 339539, CAST(N'1998-08-02' AS Date), N'450375, г. Санкт-Петербург, ул. Клубная, 44, кв. 80', N'sethbishop@yahoo.com', N'cl12377')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462559, N'Никитина Полина Александровна', 2077, 443480, CAST(N'1976-09-19' AS Date), N'625560, г. Санкт-Петербург, ул. Некрасова, 12, кв. 66', N'drollins@schultz-soto.net', N'cl12378')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462560, N'Окулова Олеся Алексеевна', 2147, 357518, CAST(N'1999-04-03' AS Date), N'630201, г. Санкт-Петербург, ул. Комсомольская, 17, кв. 25', N'pblack@copeland-winters.org', N'cl12379')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462561, N'Захарова Полина Яновна', 2687, 363884, CAST(N'1976-04-21' AS Date), N'190949, г. Санкт-Петербург, ул. Мичурина, 26, кв. 93', N'johnathon.oberbrunner@yahoo.com', N'cl12380')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462562, N'Зайцев Владимир Давидович', 2376, 443711, CAST(N'1998-01-26' AS Date), N'350501, г. Санкт-Петербург, ул. Парковая, 2, кв. 7', N'bradly29@gmail.com', N'cl12381')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462563, N'Иванов Виталий Даниилович', 2568, 386237, CAST(N'1976-08-11' AS Date), N'450048, г. Санкт-Петербург, ул. Коммунистическая, 21, кв. 3', N'stark.cristina@hilpert.biz', N'cl12382')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462564, N'Захаров Матвей Романович', 2556, 439376, CAST(N'1993-07-12' AS Date), N'644921, г. Санкт-Петербург, ул. Школьная, 46, кв. 37', N'bruen.eleanore@yahoo.com', N'cl12383')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462565, N'Иванов Степан Степанович', 2737, 407501, CAST(N'1998-09-19' AS Date), N'614228, г. Санкт-Петербург, ул. Дорожная, 36, кв. 54', N'percival.halvorson@yahoo.com', N'cl12384')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462566, N'Ткачева Милана Тимуровна', 2581, 441645, CAST(N'1998-05-24' AS Date), N'350940, г. Санкт-Петербург, ул. Первомайская, 23, кв. 2', N'javonte71@kuhlman.biz', N'cl12385')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462567, N'Семенов Даниил Иванович', 2675, 427933, CAST(N'1976-01-04' AS Date), N'344990, г. Санкт-Петербург, ул. Красноармейская, 19, кв. 92', N'vconnelly@kautzer.com', N'cl12386')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462568, N'Виноградов Вячеслав Дмитриевич', 2967, 434531, CAST(N'1976-07-12' AS Date), N'410248, г. Санкт-Петербург, ул. Чкалова, 11, кв. 75', N'anabelle07@schultz.info', N'cl12387')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462569, N'Соболева Николь Фёдоровна', 3070, 449655, CAST(N'1976-05-02' AS Date), N'400839, г. Санкт-Петербург, ул. 8 Марта, 46, кв. 44', N'nitzsche.katlynn@yahoo.com', N'cl12388')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462570, N'Тихонова Анна Львовна', 3108, 451174, CAST(N'1985-03-23' AS Date), N'450539, г. Санкт-Петербург, ул. Заводская, 3, кв. 81', N'corine16@von.com', N'cl12389')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462571, N'Кузнецова Ульяна Савельевна', 3250, 464705, CAST(N'1999-06-03' AS Date), N'614591, г. Санкт-Петербург, ул. Цветочная, 20, кв. 40', N'otha.wisozk@lubowitz.org', N'cl12390')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462572, N'Смирнова Анна Германовна', 3392, 471644, CAST(N'1997-07-18' AS Date), N'400260, г. Санкт-Петербург, ул. Больничная, 30, кв. 53', N'may.kirlin@hotmail.com', N'cl12391')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462573, N'Черепанова Анна Давидовна', 3497, 487819, CAST(N'1985-11-06' AS Date), N'660924, г. Санкт-Петербург, ул. Молодежная, 32, кв. 59', N'bryana.kautzer@yahoo.com', N'cl12392')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462574, N'Григорьев Максим Кириллович', 3560, 491260, CAST(N'1999-05-26' AS Date), N'644133, г. Санкт-Петербург, ул. Гагарина, 28, кв. 69', N'deborah.christiansen@quigley.biz', N'cl12393')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462575, N'Голубев Даниэль Александрович', 3620, 506034, CAST(N'1999-06-14' AS Date), N'450698, г. Санкт-Петербург, ул. Вокзальная, 14, кв. 37', N'connelly.makayla@yahoo.com', N'cl12394')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462576, N'Миронов Юрий Денисович', 3774, 511438, CAST(N'1985-01-26' AS Date), N'620653, г. Санкт-Петербург, ул. Западная, 15, кв. 25', N'tatum.collins@fay.org', N'cl12395')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462577, N'Терехов Михаил Андреевич', 3862, 521377, CAST(N'1976-07-06' AS Date), N'644321, г. Санкт-Петербург, ул. Клубная, 32, кв. 10', N'itzel73@anderson.com', N'cl12396')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462578, N'Орлова Алиса Михайловна', 3084, 535966, CAST(N'1997-02-24' AS Date), N'603653, г. Санкт-Петербург, ул. Молодежная, 2, кв. 45', N'arjun39@hotmail.com', N'cl12397')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462579, N'Кулаков Константин Даниилович', 4021, 541528, CAST(N'1993-06-20' AS Date), N'410181, г. Санкт-Петербург, ул. Механизаторов, 16, кв. 74', N'ohara.rebeka@yahoo.com', N'cl12398')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462580, N'Кудрявцев Максим Романович', 4109, 554053, CAST(N'1998-05-10' AS Date), N'394207, г. Санкт-Петербург, ул. Свердлова, 31, кв. 28', N'danika58@rath.com', N'cl12399')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462581, N'Соболева Кира Фёдоровна', 4537, 564868, CAST(N'1998-03-14' AS Date), N'420633, г. Санкт-Петербург, ул. Матросова, 18, кв. 41', N'janae.bogan@gmail.com', N'cl12400')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462582, N'Коновалов Арсений Максимович', 4914, 572471, CAST(N'1985-02-18' AS Date), N'445720, г. Санкт-Петербург, ул. Матросова, 50, кв. 67', N'vern91@yahoo.com', N'cl12401')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462583, N'Гусев Михаил Дмитриевич', 4445, 581302, CAST(N'1999-11-23' AS Date), N'400646, г. Санкт-Петербург, ул. Октябрьская, 47, кв. 65', N'mariana.leannon@larkin.net', N'cl12402')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462584, N'Суханова Варвара Матвеевна', 4743, 598180, CAST(N'1993-09-13' AS Date), N'644410, г. Санкт-Петербург, ул. Красная, 17, кв. 69', N'vmoore@gmail.com', N'cl12403')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462585, N'Орлова Ясмина Васильевна', 4741, 601821, CAST(N'1984-06-24' AS Date), N'400750, г. Санкт-Петербург, ул. Школьная, 36, кв. 71', N'damon.mcclure@mills.com', N'cl12404')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462586, N'Васильева Ксения Константиновна', 4783, 612567, CAST(N'1999-08-01' AS Date), N'660590, г. Санкт-Петербург, ул. Дачная, 37, кв. 70', N'grady.reilly@block.com', N'cl12405')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462587, N'Борисова Тамара Данииловна', 4658, 621200, CAST(N'1993-05-29' AS Date), N'426083, г. Санкт-Петербург, ул. Механизаторов, 41, кв. 26', N'boyd.koss@yahoo.com', N'cl12406')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462588, N'Дмитриев Мирон Ильич', 4908, 634613, CAST(N'1985-04-13' AS Date), N'410569, г. Санкт-Петербург, ул. Парковая, 36, кв. 17', N'obartell@franecki.info', N'cl12407')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462589, N'Лебедева Анна Александровна', 5092, 642468, CAST(N'1985-03-30' AS Date), N'443375, г. Санкт-Петербург, ул. Дзержинского, 50, кв. 95', N'reina75@ferry.net', N'cl12408')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462590, N'Пономарев Артём Маркович', 5155, 465274, CAST(N'1984-06-02' AS Date), N'614316, г. Санкт-Петербург, ул. Первомайская, 48, кв. 31', N'karson28@hotmail.com', N'cl12409')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462591, N'Борисова Елена Михайловна', 5086, 666893, CAST(N'1976-05-23' AS Date), N'445685, г. Санкт-Петербург, ул. Зеленая, 7, кв. 47', N'damaris61@okon.com', N'cl12410')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462592, N'Моисеев Камиль Максимович', 5333, 675375, CAST(N'1999-06-17' AS Date), N'614505, г. Санкт-Петербург, ул. Нагорная, 37, кв. 31', N'carroll.jerod@hotmail.com', N'cl12411')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462593, N'Герасимова Дарья Константиновна', 5493, 684572, CAST(N'1984-10-13' AS Date), N'426629, г. Санкт-Петербург, ул. Весенняя, 32, кв. 46', N'ron.treutel@quitzon.com', N'cl12412')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462594, N'Михайлова Мария Марковна', 5150, 696226, CAST(N'1976-12-02' AS Date), N'603743, г. Санкт-Петербург, ул. Матросова, 19, кв. 20', N'olen79@yahoo.com', N'cl12413')
+GO
+INSERT [Client] ([id], [name], [passport_series], [passport_number], [date_of_birth], [address], [email], [password]) VALUES (45462595, N'Коршунов Кирилл Максимович', 1308, 703305, CAST(N'1985-05-22' AS Date), N'450750, г. Санкт-Петербург, ул. Клубная, 23, кв. 90', N'pacocha.robbie@yahoo.com', N'cl12414')
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (1, N'45462526/12.03.2022', CAST(N'2022-03-12' AS Date), CAST(N'09:10:00' AS Time), 45462526, 1, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (2, N'45462527/13.03.2022', CAST(N'2022-03-13' AS Date), CAST(N'10:10:00' AS Time), 45462527, 2, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (3, N'45462528/14.03.2022', CAST(N'2022-03-14' AS Date), CAST(N'11:10:00' AS Time), 45462528, 2, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (4, N'45462529/15.03.2022', CAST(N'2022-03-15' AS Date), CAST(N'12:10:00' AS Time), 45462529, 1, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (5, N'45462530/16.03.2022', CAST(N'2022-03-16' AS Date), CAST(N'13:10:00' AS Time), 45462530, 3, CAST(N'2022-04-16' AS Date), 5)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (6, N'45462531/17.03.2022', CAST(N'2022-03-17' AS Date), CAST(N'14:10:00' AS Time), 45462531, 1, NULL, 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (7, N'45462532/18.03.2022', CAST(N'2022-03-18' AS Date), CAST(N'15:10:00' AS Time), 45462532, 1, NULL, 4)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (8, N'45462533/19.03.2022', CAST(N'2022-03-19' AS Date), CAST(N'16:10:00' AS Time), 45462533, 2, NULL, 6)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (9, N'45462534/20.03.2022', CAST(N'2022-03-20' AS Date), CAST(N'10:00:00' AS Time), 45462534, 2, NULL, 12)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (10, N'45462535/21.03.2022', CAST(N'2022-03-21' AS Date), CAST(N'11:00:00' AS Time), 45462535, 1, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (11, N'45462536/22.03.2022', CAST(N'2022-03-22' AS Date), CAST(N'12:00:00' AS Time), 45462536, 3, CAST(N'2022-03-22' AS Date), 12)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (12, N'45462537/23.03.2022', CAST(N'2022-03-23' AS Date), CAST(N'13:00:00' AS Time), 45462537, 2, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (13, N'45462538/24.03.2022', CAST(N'2022-03-24' AS Date), CAST(N'14:00:00' AS Time), 45462538, 2, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (14, N'45462539/25.03.2022', CAST(N'2022-03-25' AS Date), CAST(N'15:00:00' AS Time), 45462539, 2, NULL, 5)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (15, N'45462540/26.03.2022', CAST(N'2022-03-26' AS Date), CAST(N'16:00:00' AS Time), 45462540, 3, CAST(N'2022-04-26' AS Date), 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (16, N'45462541/27.03.2022', CAST(N'2022-03-27' AS Date), CAST(N'17:00:00' AS Time), 45462541, 1, NULL, 4)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (17, N'45462542/28.03.2022', CAST(N'2022-03-28' AS Date), CAST(N'18:00:00' AS Time), 45462542, 2, NULL, 6)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (18, N'45462543/29.03.2022', CAST(N'2022-03-29' AS Date), CAST(N'19:00:00' AS Time), 45462543, 2, NULL, 12)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (19, N'45462544/30.03.2022', CAST(N'2022-03-30' AS Date), CAST(N'12:30:00' AS Time), 45462544, 1, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (20, N'45462545/31.03.2022', CAST(N'2022-03-31' AS Date), CAST(N'13:30:00' AS Time), 45462545, 1, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (21, N'45462546/01.04.2022', CAST(N'2022-04-01' AS Date), CAST(N'14:30:00' AS Time), 45462546, 3, CAST(N'2022-04-01' AS Date), 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (22, N'45462547/02.04.2022', CAST(N'2022-04-02' AS Date), CAST(N'15:30:00' AS Time), 45462547, 1, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (23, N'45462548/03.04.2022', CAST(N'2022-04-03' AS Date), CAST(N'16:30:00' AS Time), 45462548, 1, NULL, 5)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (24, N'45462549/04.04.2022', CAST(N'2022-04-04' AS Date), CAST(N'17:30:00' AS Time), 45462549, 2, NULL, 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (25, N'45462550/05.04.2022', CAST(N'2022-04-05' AS Date), CAST(N'18:30:00' AS Time), 45462550, 2, NULL, 4)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (26, N'45462551/06.04.2022', CAST(N'2022-04-06' AS Date), CAST(N'15:30:00' AS Time), 45462551, 2, NULL, 6)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (27, N'45462552/07.04.2022', CAST(N'2022-04-07' AS Date), CAST(N'16:30:00' AS Time), 45462552, 2, NULL, 12)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (28, N'45462553/08.04.2022', CAST(N'2022-04-08' AS Date), CAST(N'17:30:00' AS Time), 45462553, 3, CAST(N'2022-04-08' AS Date), 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (29, N'45462554/09.04.2022', CAST(N'2022-04-09' AS Date), CAST(N'18:30:00' AS Time), 45462554, 1, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (30, N'45462555/10.04.2022', CAST(N'2022-04-10' AS Date), CAST(N'19:30:00' AS Time), 45462555, 2, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (31, N'45462556/11.04.2022', CAST(N'2022-04-11' AS Date), CAST(N'10:30:00' AS Time), 45462556, 2, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (32, N'45462557/12.04.2022', CAST(N'2022-04-12' AS Date), CAST(N'11:30:00' AS Time), 45462557, 1, NULL, 5)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (33, N'45462558/13.04.2022', CAST(N'2022-04-13' AS Date), CAST(N'12:30:00' AS Time), 45462558, 1, NULL, 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (34, N'45462559/14.04.2022', CAST(N'2022-04-14' AS Date), CAST(N'13:30:00' AS Time), 45462559, 1, NULL, 4)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (35, N'45462560/15.04.2022', CAST(N'2022-04-15' AS Date), CAST(N'14:30:00' AS Time), 45462560, 2, NULL, 6)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (36, N'45462561/02.04.2022', CAST(N'2022-04-02' AS Date), CAST(N'15:30:00' AS Time), 45462561, 2, NULL, 12)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (37, N'45462562/03.04.2022', CAST(N'2022-04-03' AS Date), CAST(N'16:30:00' AS Time), 45462562, 2, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (38, N'45462563/04.04.2022', CAST(N'2022-04-04' AS Date), CAST(N'17:30:00' AS Time), 45462563, 3, CAST(N'2022-04-04' AS Date), 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (39, N'45462564/05.04.2022', CAST(N'2022-04-05' AS Date), CAST(N'10:15:00' AS Time), 45462564, 2, NULL, 2)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (40, N'45462565/06.04.2022', CAST(N'2022-04-06' AS Date), CAST(N'11:15:00' AS Time), 45462565, 1, NULL, 10)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (41, N'45462566/07.04.2022', CAST(N'2022-04-07' AS Date), CAST(N'12:15:00' AS Time), 45462566, 3, CAST(N'2022-04-07' AS Date), 5)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (42, N'45462567/08.04.2022', CAST(N'2022-04-08' AS Date), CAST(N'13:15:00' AS Time), 45462567, 2, NULL, 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (43, N'45462568/09.04.2022', CAST(N'2022-04-09' AS Date), CAST(N'14:15:00' AS Time), 45462568, 2, NULL, 4)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (44, N'45462569/01.04.2022', CAST(N'2022-04-01' AS Date), CAST(N'15:15:00' AS Time), 45462569, 2, NULL, 6)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (45, N'45462570/02.04.2022', CAST(N'2022-04-02' AS Date), CAST(N'16:15:00' AS Time), 45462570, 2, NULL, 12)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (46, N'45462571/03.04.2022', CAST(N'2022-04-03' AS Date), CAST(N'10:45:00' AS Time), 45462571, 2, NULL, 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (47, N'45462572/04.04.2022', CAST(N'2022-04-04' AS Date), CAST(N'11:45:00' AS Time), 45462572, 3, CAST(N'2022-04-04' AS Date), 5)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (48, N'45462573/05.04.2022', CAST(N'2022-04-05' AS Date), CAST(N'12:45:00' AS Time), 45462573, 1, NULL, 8)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (49, N'45462574/06.04.2022', CAST(N'2022-04-06' AS Date), CAST(N'13:45:00' AS Time), 45462574, 1, NULL, 4)
+GO
+INSERT [Order] ([id], [code], [creation_date], [creation_time], [client_id], [status_id], [closing_date], [rental_time]) VALUES (50, N'45462575/07.04.2022', CAST(N'2022-04-07' AS Date), CAST(N'14:45:00' AS Time), 45462575, 1, NULL, 6)
+GO
+SET IDENTITY_INSERT [OrderServise] ON 
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (1, 1, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (2, 1, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (3, 1, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (4, 1, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (5, 2, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (6, 2, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (7, 2, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (8, 2, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (9, 2, 123)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (10, 3, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (11, 3, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (12, 3, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (13, 3, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (14, 4, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (15, 4, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (16, 4, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (17, 4, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (18, 4, 44)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (19, 5, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (20, 5, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (21, 5, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (22, 5, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (23, 5, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (24, 5, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (25, 6, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (26, 6, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (27, 6, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (29, 7, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (30, 7, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (31, 7, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (32, 7, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (34, 8, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (35, 8, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (36, 8, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (37, 8, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (38, 9, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (39, 9, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (40, 9, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (41, 9, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (42, 9, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (43, 10, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (44, 10, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (45, 10, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (46, 10, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (47, 10, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (49, 11, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (50, 11, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (51, 11, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (53, 12, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (54, 12, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (55, 12, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (56, 12, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (58, 13, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (59, 13, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (60, 13, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (62, 14, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (63, 14, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (64, 14, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (65, 14, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (67, 15, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (68, 15, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (69, 15, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (70, 15, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (71, 15, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (73, 16, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (74, 16, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (75, 16, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (77, 17, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (78, 17, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (79, 17, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (80, 17, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (82, 18, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (83, 18, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (84, 18, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (86, 19, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (87, 19, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (88, 19, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (89, 19, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (91, 20, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (92, 20, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (93, 20, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (94, 20, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (95, 20, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (97, 21, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (98, 21, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (99, 21, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (101, 22, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (102, 22, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (103, 22, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (104, 22, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (106, 23, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (107, 23, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (108, 23, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (109, 23, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (110, 24, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (111, 24, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (112, 24, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (113, 24, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (115, 25, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (116, 25, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (117, 25, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (118, 25, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (119, 25, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (121, 26, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (122, 26, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (123, 26, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (125, 27, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (126, 27, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (127, 27, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (128, 27, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (130, 28, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (131, 28, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (132, 28, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (134, 29, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (135, 29, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (136, 29, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (137, 29, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (139, 30, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (140, 30, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (141, 30, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (142, 30, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (143, 30, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (145, 31, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (146, 31, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (147, 31, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (149, 32, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (150, 32, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (151, 32, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (152, 32, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (154, 33, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (155, 33, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (156, 33, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (158, 34, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (159, 34, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (160, 34, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (161, 34, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (163, 35, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (164, 35, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (165, 35, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (166, 35, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (167, 35, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (169, 36, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (170, 36, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (171, 36, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (173, 37, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (174, 37, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (175, 37, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (176, 37, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (178, 38, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (179, 38, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (180, 38, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (182, 39, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (183, 39, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (184, 39, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (185, 39, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (187, 40, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (188, 40, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (189, 40, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (190, 40, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (191, 40, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (193, 41, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (194, 41, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (195, 41, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (197, 42, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (198, 42, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (199, 42, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (200, 42, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (202, 43, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (203, 43, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (204, 43, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (206, 44, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (207, 44, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (208, 44, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (209, 44, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (211, 45, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (212, 45, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (213, 45, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (214, 45, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (215, 45, 336)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (217, 46, 34)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (218, 46, 31)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (219, 46, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (221, 47, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (222, 47, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (223, 47, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (224, 47, 99)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (226, 48, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (227, 48, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (228, 48, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (230, 49, 92)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (231, 49, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (232, 49, 57)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (233, 49, 88)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (235, 50, 98)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (236, 50, 45)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (237, 50, 89)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (238, 50, 353)
+GO
+INSERT [OrderServise] ([id], [order_id], [service_id]) VALUES (239, 50, 336)
+GO
+SET IDENTITY_INSERT [OrderServise] OFF
+GO
+INSERT [OrderStatus] ([id], [name]) VALUES (1, N'Новая')
+GO
+INSERT [OrderStatus] ([id], [name]) VALUES (2, N'В прокате')
+GO
+INSERT [OrderStatus] ([id], [name]) VALUES (3, N'Закрыта')
+GO
+INSERT [Role] ([id], [name]) VALUES (1, N'Администратор')
+GO
+INSERT [Role] ([id], [name]) VALUES (2, N'Старший смены')
+GO
+INSERT [Role] ([id], [name]) VALUES (3, N'Продавец')
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (31, N'Прокат опорного оборудования для катка', N'JUR8R', CAST(500.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (34, N'Обучение катанию на коньках', N'JKFBJ09', CAST(1000.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (44, N'Прокат салазок', N'DHBGFY563', CAST(450.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (45, N'Прокат набора защитного оборудования', N'JFH7382', CAST(800.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (57, N'Прокат ледянки', N'JHVSJF6', CAST(300.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (88, N'Катание на Большом катке', N'DJHGBS982', CAST(400.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (89, N'Прокат детских коньков', N'OIJNB12', CAST(800.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (92, N'Прокат санок', N'HJBUJE21J', CAST(300.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (98, N'Прокат шлема', N'63748HF', CAST(300.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (99, N'Прокат вартушки', N'BSFBHV63', CAST(100.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (123, N'Катание на горках', N'638VVNQ3', CAST(500.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (336, N'Прокат коньков', N'8HFJHG443', CAST(1200.00 AS Decimal(18, 2)))
+GO
+INSERT [Service] ([id], [name], [code], [cost]) VALUES (353, N'Заточка коньков', N'87FDJKHJ', CAST(500.00 AS Decimal(18, 2)))
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (101, 3, N'Иванов Иван Иванович', N'\Resources\Сотрудники\Иванов.jpeg', N'Ivanov@namecomp.ru', N'2L6KZG', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (102, 3, N'Петров Петр Петрович', N'\Resources\Сотрудники\Петров.jpeg', N'petrov@namecomp.ru', N'uzWC67', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (103, 1, N'Федоров Федор Федорович', N'\Resources\Сотрудники\Федоров.jpeg', N'fedorov@namecomp.ru', N'8ntwUp', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (104, 2, N'Миронов Вениамин Куприянович', N'\Resources\Сотрудники\Миронов.jpeg', N'mironov@namecomp.ru', N'YOyhfR', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (105, 2, N'Ширяев Ермолай Вениаминович', N'\Resources\Сотрудники\Ширяев.jpeg', N'shiryev@namecomp.ru', N'RSbvHv', NULL, 0)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (106, 2, N'Игнатов Кассиан Васильевич', N'\Resources\Сотрудники\Игнатов.jpg', N'ignatov@namecomp.ru', N'rwVDh9', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (107, 3, N'Хохлов Владимир Мэлсович', N'\Resources\Сотрудники\Хохлов.jpeg', N'hohlov@namecomp.ru', N'LdNyos', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (108, 3, N'Стрелков Мстислав Георгьевич', N'\Resources\Сотрудники\Стрелков.jpeg', N'strelkov@namecomp.ru', N'gynQMT', NULL, 0)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (109, 3, N'Беляева Лилия Наумовна', N'\Resources\Сотрудники\Беляева.jpeg', N'belyeva@@namecomp.ru', N'AtnDjr', NULL, 1)
+GO
+INSERT [Staff] ([id], [role_id], [name], [photo], [login], [password], [last_entry], [successful_entry]) VALUES (110, 3, N'Смирнова Ульяна Гордеевна', N'\Resources\Сотрудники\Смирнова.jpeg', N'smirnova@@namecomp.ru', N'JlFRCZ', NULL, 1)
+GO
+ALTER TABLE [Order]  WITH CHECK ADD  CONSTRAINT [FK_Order_Client] FOREIGN KEY([client_id])
+REFERENCES [Client] ([id])
+GO
+ALTER TABLE [Order] CHECK CONSTRAINT [FK_Order_Client]
+GO
+ALTER TABLE [Order]  WITH CHECK ADD  CONSTRAINT [FK_Order_OrderStatus] FOREIGN KEY([status_id])
+REFERENCES [OrderStatus] ([id])
+GO
+ALTER TABLE [Order] CHECK CONSTRAINT [FK_Order_OrderStatus]
+GO
+ALTER TABLE [OrderServise]  WITH CHECK ADD  CONSTRAINT [FK_OrderServise_Order] FOREIGN KEY([order_id])
+REFERENCES [Order] ([id])
+GO
+ALTER TABLE [OrderServise] CHECK CONSTRAINT [FK_OrderServise_Order]
+GO
+ALTER TABLE [OrderServise]  WITH CHECK ADD  CONSTRAINT [FK_OrderServise_Service] FOREIGN KEY([service_id])
+REFERENCES [Service] ([id])
+GO
+ALTER TABLE [OrderServise] CHECK CONSTRAINT [FK_OrderServise_Service]
+GO
+ALTER TABLE [Staff]  WITH CHECK ADD  CONSTRAINT [FK_Staff_Role] FOREIGN KEY([role_id])
+REFERENCES [Role] ([id])
+GO
+ALTER TABLE [Staff] CHECK CONSTRAINT [FK_Staff_Role]
+GO
+ALTER DATABASE [user7] SET  READ_WRITE 
+GO

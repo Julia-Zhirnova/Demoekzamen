@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AdditionalInformation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="CharacteristicId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Characteristic" Relationship="Self.FK__Additiona__Chara__04E4BC85" FromRole="AdditionalInformation" ToRole="Characteristic" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Additiona__Emplo__59FA5E80" FromRole="AdditionalInformation" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Agent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AgentTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="LogoPath" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DirectorLastName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DirectorFirstName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DirectorMiddleName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="INN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KPP" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AgentType" Relationship="Self.FK__Agent__AgentType__06CD04F7" FromRole="Agent" ToRole="AgentType" />
+    <NavigationProperty Name="PriorityAgentHistory" Relationship="Self.FK__PriorityA__Agent__09A971A2" FromRole="Agent" ToRole="PriorityAgentHistory" />
+    <NavigationProperty Name="Sale" Relationship="Self.FK__Sale__AgentId__6754599E" FromRole="Agent" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="AgentType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Agent" Relationship="Self.FK__Agent__AgentType__06CD04F7" FromRole="AgentType" ToRole="Agent" />
+  </EntityType>
+  <EntityType Name="Characteristic">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AdditionalInformation" Relationship="Self.FK__Additiona__Chara__04E4BC85" FromRole="Characteristic" ToRole="AdditionalInformation" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Login" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="Int32" />
+    <NavigationProperty Name="AdditionalInformation" Relationship="Self.FK__Additiona__Emplo__59FA5E80" FromRole="Employee" ToRole="AdditionalInformation" />
+    <NavigationProperty Name="EmployeeData" Relationship="Self.FK__EmployeeData__Id__5BE2A6F2" FromRole="Employee" ToRole="EmployeeData" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Employee_Role" FromRole="Employee" ToRole="Role" />
+    <NavigationProperty Name="Sale" Relationship="Self.FK_Sale_Employee" FromRole="Employee" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="EmployeeData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="PassportSerial" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PassportNumber" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BankDetail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__EmployeeData__Id__5BE2A6F2" FromRole="EmployeeData" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="PriorityAgentHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Priority" Type="Int32" Nullable="false" />
+    <Property Name="AgentId" Type="Int32" />
+    <NavigationProperty Name="Agent" Relationship="Self.FK__PriorityA__Agent__09A971A2" FromRole="PriorityAgentHistory" ToRole="Agent" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="400" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProductTypeId" Type="Int32" />
+    <Property Name="Article" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PeopleCount" Type="Int32" Nullable="false" />
+    <Property Name="FloorNumber" Type="Int32" Nullable="false" />
+    <Property Name="MinimalCost" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Paramets" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ProductType" Relationship="Self.FK__Product__Product__0A9D95DB" FromRole="Product" ToRole="ProductType" />
+    <NavigationProperty Name="Sale" Relationship="Self.FK__Sale__ProductId__66603565" FromRole="Product" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="ProductType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Product__Product__0A9D95DB" FromRole="ProductType" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Role" FromRole="Role" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="AgentId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeId" Type="Int32" />
+    <Property Name="StatusId" Type="Int32" />
+    <NavigationProperty Name="Agent" Relationship="Self.FK__Sale__AgentId__6754599E" FromRole="Sale" ToRole="Agent" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Sale_Employee" FromRole="Sale" ToRole="Employee" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Sale__ProductId__66603565" FromRole="Sale" ToRole="Product" />
+    <NavigationProperty Name="SaleStatus" Relationship="Self.FK_Sale_SaleStatus" FromRole="Sale" ToRole="SaleStatus" />
+  </EntityType>
+  <EntityType Name="SaleStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Sale" Relationship="Self.FK_Sale_SaleStatus" FromRole="SaleStatus" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Additiona__Chara__04E4BC85">
+    <End Role="Characteristic" Type="Self.Characteristic" Multiplicity="1" />
+    <End Role="AdditionalInformation" Type="Self.AdditionalInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Characteristic">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AdditionalInformation">
+        <PropertyRef Name="CharacteristicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Additiona__Emplo__59FA5E80">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="AdditionalInformation" Type="Self.AdditionalInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AdditionalInformation">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Agent__AgentType__06CD04F7">
+    <End Role="AgentType" Type="Self.AgentType" Multiplicity="1" />
+    <End Role="Agent" Type="Self.Agent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AgentType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agent">
+        <PropertyRef Name="AgentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PriorityA__Agent__09A971A2">
+    <End Role="Agent" Type="Self.Agent" Multiplicity="0..1" />
+    <End Role="PriorityAgentHistory" Type="Self.PriorityAgentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PriorityAgentHistory">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sale__AgentId__6754599E">
+    <End Role="Agent" Type="Self.Agent" Multiplicity="0..1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmployeeData__Id__5BE2A6F2">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="EmployeeData" Type="Self.EmployeeData" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmployeeData">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sale_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Product__0A9D95DB">
+    <End Role="ProductType" Type="Self.ProductType" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ProductTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sale__ProductId__66603565">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sale_SaleStatus">
+    <End Role="SaleStatus" Type="Self.SaleStatus" Multiplicity="0..1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SaleStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdditionalInformation" EntityType="Self.AdditionalInformation" />
+    <EntitySet Name="Agent" EntityType="Self.Agent" />
+    <EntitySet Name="AgentType" EntityType="Self.AgentType" />
+    <EntitySet Name="Characteristic" EntityType="Self.Characteristic" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <EntitySet Name="EmployeeData" EntityType="Self.EmployeeData" />
+    <EntitySet Name="PriorityAgentHistory" EntityType="Self.PriorityAgentHistory" />
+    <EntitySet Name="Product" EntityType="Self.Product" />
+    <EntitySet Name="ProductType" EntityType="Self.ProductType" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Sale" EntityType="Self.Sale" />
+    <EntitySet Name="SaleStatus" EntityType="Self.SaleStatus" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK__Additiona__Chara__04E4BC85" Association="Self.FK__Additiona__Chara__04E4BC85">
+      <End Role="Characteristic" EntitySet="Characteristic" />
+      <End Role="AdditionalInformation" EntitySet="AdditionalInformation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Additiona__Emplo__59FA5E80" Association="Self.FK__Additiona__Emplo__59FA5E80">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="AdditionalInformation" EntitySet="AdditionalInformation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Agent__AgentType__06CD04F7" Association="Self.FK__Agent__AgentType__06CD04F7">
+      <End Role="AgentType" EntitySet="AgentType" />
+      <End Role="Agent" EntitySet="Agent" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PriorityA__Agent__09A971A2" Association="Self.FK__PriorityA__Agent__09A971A2">
+      <End Role="Agent" EntitySet="Agent" />
+      <End Role="PriorityAgentHistory" EntitySet="PriorityAgentHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sale__AgentId__6754599E" Association="Self.FK__Sale__AgentId__6754599E">
+      <End Role="Agent" EntitySet="Agent" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmployeeData__Id__5BE2A6F2" Association="Self.FK__EmployeeData__Id__5BE2A6F2">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="EmployeeData" EntitySet="EmployeeData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Role" Association="Self.FK_Employee_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sale_Employee" Association="Self.FK_Sale_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Product__0A9D95DB" Association="Self.FK__Product__Product__0A9D95DB">
+      <End Role="ProductType" EntitySet="ProductType" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sale__ProductId__66603565" Association="Self.FK__Sale__ProductId__66603565">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sale_SaleStatus" Association="Self.FK_Sale_SaleStatus">
+      <End Role="SaleStatus" EntitySet="SaleStatus" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

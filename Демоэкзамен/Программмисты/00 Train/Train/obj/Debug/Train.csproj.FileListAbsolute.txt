@@ -1,0 +1,43 @@
+C:\Users\Max\source\repos\Train\Train\bin\Debug\Train.exe.config
+C:\Users\Max\source\repos\Train\Train\bin\Debug\Train.exe
+C:\Users\Max\source\repos\Train\Train\bin\Debug\Train.pdb
+C:\Users\Max\source\repos\Train\Train\bin\Debug\EntityFramework.dll
+C:\Users\Max\source\repos\Train\Train\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Max\source\repos\Train\Train\bin\Debug\EntityFramework.xml
+C:\Users\Max\source\repos\Train\Train\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Max\source\repos\Train\Train\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.csproj.AssemblyReference.cache
+C:\Users\Max\source\repos\Train\Train\obj\Debug\App.g.cs
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train_Content.g.cs
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train_MarkupCompile.cache
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train_MarkupCompile.lref
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.g.resources
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.Properties.Resources.resources
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.csproj.GenerateResource.cache
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.csproj.CopyComplete
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.exe
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Train.pdb
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\Max\source\repos\Train\Train\obj\Debug\Pages\MainWindow.baml
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\Train.exe.config
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\Train.exe
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\Train.pdb
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\Train\Train\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Pages\MainWindow.g.cs
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train_Content.g.cs
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train_MarkupCompile.cache
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train_MarkupCompile.lref
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Pages\MainWindow.baml
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.g.resources
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.Properties.Resources.resources
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.exe
+D:\worldskills\варианты заданий\Train\Train\obj\Debug\Train.pdb

@@ -1,0 +1,54 @@
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\AutoserviceDoeduSam.exe.config
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\AutoserviceDoeduSam.exe
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\AutoserviceDoeduSam.pdb
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\App.g.cs
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam_MarkupCompile.cache
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam_MarkupCompile.lref
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.g.resources
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.Properties.Resources.resources
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.GenerateResource.cache
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.CoreCompileInputs.cache
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.exe
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.pdb
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Windows\MainAutoserviceWindow.g.cs
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Windows\MainAutoserviceWindow.baml
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.AssemblyReference.cache
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Admin.g.cs
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Login.g.cs
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Admin.baml
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Login.baml
+D:\worldskills\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\App.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\AutoserviceDoeduSam.exe.config
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\AutoserviceDoeduSam.exe
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\AutoserviceDoeduSam.pdb
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\EntityFramework.dll
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\EntityFramework.xml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.SuggestedBindingRedirects.cache
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Admin.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Administrator.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Login.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Prodavec.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\StarshiiSmen.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Windows\MainAutoserviceWindow.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam_Content.g.cs
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam_MarkupCompile.cache
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam_MarkupCompile.lref
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\App.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Admin.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Administrator.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Login.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\Prodavec.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Pages\StarshiiSmen.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\Windows\MainAutoserviceWindow.baml
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.g.resources
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.Properties.Resources.resources
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.GenerateResource.cache
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.CoreCompileInputs.cache
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.csproj.CopyComplete
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.exe
+D:\worldskills\варианты заданий\4 код autoservice\4 Авторизация\AutoserviceDoeduSam\AutoserviceDoeduSam\obj\Debug\AutoserviceDoeduSam.pdb

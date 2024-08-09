@@ -1,0 +1,25 @@
+﻿<Page x:Class="AutoserviceDoeduSam.Pages.Administrator"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AutoserviceDoeduSam.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Administrator">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>           
+        </Grid.RowDefinitions>
+        <Grid Background="{DynamicResource ColorAccent}">            
+            <StackPanel Orientation="Horizontal" Margin="16,0,0,0">
+                <Image Name="UserPhoto" Height="30" Width="30"/>
+                <TextBlock Name="UserTB" VerticalAlignment="Center" Margin="0,0,16,0" Foreground="White"/>
+                <TextBlock Name="RoleTB" VerticalAlignment="Center" Foreground="White"/>
+            </StackPanel>
+            <TextBlock Name="TimeTB" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" Margin="0,0,16,0"/>
+        </Grid>
+    </Grid>
+</Page>

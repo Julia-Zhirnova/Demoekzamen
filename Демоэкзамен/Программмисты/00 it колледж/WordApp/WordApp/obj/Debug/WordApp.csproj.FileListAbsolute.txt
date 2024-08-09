@@ -1,0 +1,25 @@
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\bin\Debug\WordApp.exe.config
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\bin\Debug\WordApp.exe
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\bin\Debug\WordApp.pdb
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.csproj.AssemblyReference.cache
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\MainWindow.g.cs
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\App.g.cs
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp_MarkupCompile.cache
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp_MarkupCompile.lref
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\MainWindow.baml
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.g.resources
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.Properties.Resources.resources
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.csproj.GenerateResource.cache
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.csproj.CoreCompileInputs.cache
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.exe
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.pdb
+C:\Users\x_iv_m\source\repos\WordApp\WordApp\obj\Debug\WordApp.csproj.ResolveComReference.cache
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\WordApp.csproj.AssemblyReference.cache
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\WordApp.csproj.ResolveComReference.cache
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\MainWindow.g.cs
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\App.g.cs
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\WordApp_MarkupCompile.cache
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\WordApp_MarkupCompile.lref
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\WordApp.exe
+D:\worldskills\варианты заданий\WordApp\WordApp\obj\Debug\WordApp.pdb

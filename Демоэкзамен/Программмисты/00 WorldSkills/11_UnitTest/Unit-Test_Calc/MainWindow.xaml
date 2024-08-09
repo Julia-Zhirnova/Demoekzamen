@@ -1,0 +1,56 @@
+﻿<Window x:Class="WPF_Calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Calc"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="275" Width="225" ResizeMode="NoResize">
+    
+    <Grid x:Name="MainRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="txtLabel" Grid.Column="0" Grid.ColumnSpan="5" FontSize="26" FontFamily="Consolas" TextAlignment="Right" VerticalAlignment="Center"/>
+        <TextBlock x:Name="txtLabe2" Grid.Column="0" Grid.ColumnSpan="5" FontSize="26" FontFamily="Consolas" TextAlignment="Right" VerticalAlignment="Center"/>
+        <Button Grid.Column="0" Grid.Row="1" Background="#ECEFF1">7</Button>
+        <Button Grid.Column="1" Grid.Row="1" Background="#ECEFF1">8</Button>
+        <Button Grid.Column="2" Grid.Row="1" Background="#ECEFF1">9</Button>
+        <Button Grid.Column="3" Grid.Row="1" Background="#CFD8DC">*</Button>
+        <Button Grid.Column="4" Grid.Row="1" Grid.RowSpan="2" Background="#e58080">AC</Button>
+
+
+        <Button Grid.Column="0" Grid.Row="2" Background="#ECEFF1">4</Button>
+        <Button Grid.Column="1" Grid.Row="2" Background="#ECEFF1">5</Button>
+        <Button Grid.Column="2" Grid.Row="2" Background="#ECEFF1">6</Button>
+        <Button Grid.Column="3" Grid.Row="2" Background="#CFD8DC">/</Button>
+
+        <Button Grid.Column="0" Grid.Row="3" Background="#ECEFF1">1</Button>
+        <Button Grid.Column="1" Grid.Row="3" Background="#ECEFF1">2</Button>
+        <Button Grid.Column="2" Grid.Row="3" Background="#ECEFF1">3</Button>
+        <Button Grid.Column="3" Grid.Row="3" Background="#CFD8DC">-</Button>
+
+        <Button Grid.Column="0" Grid.Row="4" Background="#ECEFF1">1</Button>
+        <Button Grid.Column="1" Grid.Row="4" Background="#ECEFF1">2</Button>
+        <Button Grid.Column="2" Grid.Row="4" Background="#ECEFF1">3</Button>
+        <Button Grid.Column="3" Grid.Row="4" Background="#CFD8DC">+</Button>
+
+        <Button Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Background="#ECEFF1">0</Button>
+        <Button Grid.Column="2" Grid.Row="5" Background="#ECEFF1">.</Button>
+        <Button Grid.Column="4" Grid.Row="3" Grid.RowSpan="2" Background="#99b3ff">=</Button>
+        
+    </Grid>
+</Window>

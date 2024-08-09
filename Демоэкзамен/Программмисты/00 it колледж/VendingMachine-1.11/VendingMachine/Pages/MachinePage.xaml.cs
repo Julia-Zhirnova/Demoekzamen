@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using VendingMachine.Classes;
+using VendingMachine.Models;
+
+namespace VendingMachine.Pages
+{
+    /// <summary>
+    /// Логика взаимодействия для MachinePage.xaml
+    /// </summary>
+    public partial class MachinePage : Page
+    {
+        public MachinePage()
+        {
+            InitializeComponent();
+
+            LB.ItemsSource = Entities.GetContext().Drinks.ToList();
+        }
+
+        private void BtnSingIn_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AuthorizePage());
+        }
+    }
+}

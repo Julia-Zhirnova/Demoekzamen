@@ -1,0 +1,172 @@
+﻿<Window x:Class="Style.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Style"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#3FCFACF1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="225"></ColumnDefinition>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Background="#7FD3BEE8">
+            <Button Margin="0,50,0,0" Name="Menu" Style="{StaticResource MenuButton}">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Resources/1.jpg"></Image>
+                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Dashboard</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource MenuButton}">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Resources/2.jpg"></Image>
+                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Lessons</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource MenuButton}">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Resources/3.jpg"></Image>
+                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Finance</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource MenuButton}">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Resources/4.jpg" Width="27"></Image>
+                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Students</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource MenuButton}">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Resources/5.jpg"></Image>
+                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Messages</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource MenuButton}">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Resources/6.jpg"></Image>
+                    <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Reviews</TextBlock>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <Button VerticalAlignment="Bottom"  Style="{StaticResource MenuButton}">
+            <StackPanel Orientation="Horizontal" >
+                <Image Source="/Resources/7.jpg"></Image>
+                <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Settings</TextBlock>
+            </StackPanel>
+        </Button>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="130"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel VerticalAlignment="Center" Margin="10,0,0,0">
+                <TextBlock FontSize="20" FontFamily="Bahnschrift SemiBold">What do you want</TextBlock>
+                <TextBlock FontSize="20" FontFamily="Bahnschrift SemiBold">to learn today?</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="0,0,10,0" Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1">
+                <Button Width="60" Height="60" Style="{StaticResource WhiteButton}">
+                    <Image  Width="20" Height="20" Source="/Resources/search-interface-symbol.png"></Image>
+                </Button>
+                <Button Width="60" Height="60" Style="{StaticResource WhiteButton}">
+                    <Image Width="60" Height="60" Source="/Resources/person.jpg"></Image>
+                </Button>
+            </StackPanel>
+            <WrapPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1" Margin="10">
+                <StackPanel Orientation="Vertical" Background="White" HorizontalAlignment="Left">
+                    <TextBlock FontSize="16" Margin="10,40,0,0" Foreground="#FFE22121">UPGRADE TO PRO</TextBlock>
+                    <TextBlock FontSize="20" Margin="10,5,0,0">Improve your skills!</TextBlock>
+                    <TextBlock Margin="10, 0, 0, 0">Join over 1 million Students</TextBlock>
+                    <Button Margin="10,30,0,0"  Style="{StaticResource ArrowButton}" Background="#FFE22121">Try a one-week trial</Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Background="White" HorizontalAlignment="Center">
+                    <Image Margin="0,10,0,10" Stretch="Uniform"  Width="300" Height="200" Source="/Resources/person2.jpg"></Image>
+                    <Button VerticalAlignment="Top" Width="60" Height="60" Style="{StaticResource WhiteButton}">
+                        <Image Width="30" Height="30" Source="/Resources/крест.jpg"></Image>
+                    </Button>
+                </StackPanel>
+            </WrapPanel>
+
+            <StackPanel Background="White" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="1" Margin="10">
+                <Image Margin="20,10,0,10" Stretch="Uniform"  Width="150" Height="200" Source="/Resources/fon_image.jpg"></Image>
+            </StackPanel>
+
+            <WrapPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="3" Margin="10" Background="White">
+                <StackPanel Orientation="Vertical" Background="White" HorizontalAlignment="Left">
+                    <TextBlock FontSize="16" Margin="10,40,0,0" Foreground="#FFE22121">UPGRADE TO PRO</TextBlock>
+                    <TextBlock FontSize="20" Margin="10,5,0,0">Improve your skills!</TextBlock>
+
+                    <Button Style="{StaticResource BlackButton}">uuu</Button>
+                </StackPanel>
+
+            </WrapPanel>
+
+            <TextBlock FontSize="20" Margin="10" Grid.Column="0" Grid.Row="2"> My Courses</TextBlock>
+            <WrapPanel Margin="10" Orientation="Vertical" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Background="#FFF9EAEA">
+
+                <StackPanel Orientation="Horizontal">
+                    <Button VerticalAlignment="Bottom"  Style="{StaticResource MenuButton}">
+                        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">In progress</TextBlock>
+                    </Button>
+                    <Button VerticalAlignment="Bottom"  Style="{StaticResource MenuButton}">
+                        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Explore</TextBlock>
+                    </Button>
+                    <Button VerticalAlignment="Bottom"  Style="{StaticResource MenuButton}">
+                        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Incoming</TextBlock>
+                    </Button>
+                    <Button VerticalAlignment="Bottom"  Style="{StaticResource MenuButton}">
+                        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0">Finished</TextBlock>
+                    </Button>
+                </StackPanel>
+                <WrapPanel Orientation="Horizontal">
+                    <WrapPanel Orientation="Horizontal" Margin="10">
+                        <StackPanel Orientation="Vertical" Background="White" HorizontalAlignment="Left">
+                            <TextBlock FontSize="16" Margin="10,20,0,0" >UI/UX</TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,20">Design Tips</TextBlock>
+
+                            <Button Style="{StaticResource BlackButton}">Continue</Button>
+                        </StackPanel>
+                        <StackPanel Background="White" HorizontalAlignment="Center">
+                            <Image Margin="0,10,0,10" Stretch="Uniform"  Width="100" Height="100" Source="/Resources/1person.jpg"></Image>
+                        </StackPanel>
+                    </WrapPanel>
+                    <WrapPanel Orientation="Horizontal" Margin="10">
+                        <StackPanel Orientation="Vertical" Background="White" HorizontalAlignment="Left">
+                            <TextBlock FontSize="16" Margin="10,20,0,0" >Drawing for</TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,20">everyone</TextBlock>
+
+                            <Button Style="{StaticResource BlackButton}">Continue</Button>
+                        </StackPanel>
+                        <StackPanel Background="White" HorizontalAlignment="Center">
+                            <Image Margin="0,10,0,10" Stretch="Uniform"  Width="100" Height="100" Source="/Resources/2person.jpg"></Image>
+                        </StackPanel>
+                    </WrapPanel>
+                    <WrapPanel Orientation="Horizontal" Margin="10">
+                        <StackPanel Orientation="Vertical" Background="White" HorizontalAlignment="Left">
+                            <TextBlock FontSize="16" Margin="10,20,0,0" >Basics</TextBlock>
+                            <TextBlock FontSize="16" Margin="10,0,0,20">of UI Design</TextBlock>
+
+                            <Button Style="{StaticResource BlackButton}">Continue</Button>
+                        </StackPanel>
+                        <StackPanel Background="White" HorizontalAlignment="Center">
+                            <Image Margin="0,10,0,10" Stretch="Uniform"  Width="100" Height="100" Source="/Resources/3person.jpg"></Image>
+                        </StackPanel>
+                    </WrapPanel>
+                    <Button Width="60" Height="60" Style="{StaticResource WhiteButton}">
+                        <Image  Width="20" Height="20" Source="/Resources/стрелка.png"></Image>
+                    </Button>
+                </WrapPanel>
+            </WrapPanel>
+
+
+
+        </Grid>
+    </Grid>
+
+</Window>

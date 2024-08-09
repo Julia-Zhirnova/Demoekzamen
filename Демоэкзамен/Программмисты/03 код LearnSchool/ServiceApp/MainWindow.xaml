@@ -1,0 +1,28 @@
+﻿<Window x:Class="ServiceApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ServiceApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800" FontFamily="Comic Sans MS">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.Background>
+                <SolidColorBrush Color="#FFE7FABF"></SolidColorBrush>
+            </Grid.Background>
+
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Resources/school_logo.png" Margin="5,5,25,5" HorizontalAlignment="Left" />
+                <TextBlock Text="Школа языков &quot;Леарн&quot;" FontSize="32" Foreground="#FF04A0FF" VerticalAlignment="Center" FontStyle="Italic" FontWeight="Bold"/>
+            </StackPanel>
+        </Grid>
+
+        <Frame Grid.Row="1" Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

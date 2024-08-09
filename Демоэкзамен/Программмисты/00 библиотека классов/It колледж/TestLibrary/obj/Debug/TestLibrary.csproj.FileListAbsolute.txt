@@ -1,0 +1,6 @@
+F:\mvs ide\TestLibrary\bin\Debug\TestLibrary.dll
+F:\mvs ide\TestLibrary\bin\Debug\TestLibrary.pdb
+F:\mvs ide\TestLibrary\obj\Debug\TestLibrary.csprojAssemblyReference.cache
+F:\mvs ide\TestLibrary\obj\Debug\TestLibrary.csproj.CoreCompileInputs.cache
+F:\mvs ide\TestLibrary\obj\Debug\TestLibrary.dll
+F:\mvs ide\TestLibrary\obj\Debug\TestLibrary.pdb

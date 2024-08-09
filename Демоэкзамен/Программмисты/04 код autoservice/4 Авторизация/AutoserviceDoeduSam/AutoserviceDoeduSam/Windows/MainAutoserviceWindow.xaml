@@ -1,0 +1,25 @@
+﻿<Window x:Class="AutoserviceDoeduSam.Windows.MainAutoserviceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoserviceDoeduSam.Windows"
+        mc:Ignorable="d"
+        Title="Автосервис Доеду сам" MinHeight="450" MaxHeight="800" MinWidth="700" MaxWidth="1500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Image Source="/AutoserviceDoeduSam;component/Resources/service_logo.png" HorizontalAlignment="Left"/>
+        <TextBlock Text="Автосервис Доеду сам" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="30"/>
+        <Grid Background="#FFFFFFE1" Panel.ZIndex="-2"/>
+        <Grid Grid.Row="2" Background="#FFFFFFE1"/>
+        <Button Content="Пользователь" Click="Back_Click" Name="Back"
+                HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Frame NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered"
+               Grid.Row="1" Name="MainFrame"/>
+    </Grid>
+</Window>

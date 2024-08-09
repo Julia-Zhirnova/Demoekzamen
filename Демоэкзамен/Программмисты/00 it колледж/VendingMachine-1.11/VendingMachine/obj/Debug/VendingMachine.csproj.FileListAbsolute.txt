@@ -1,0 +1,349 @@
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\MashinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\MashinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-2\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\MashinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\MashinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-3\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.3\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.4 — копия\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\2_05.02.22\VendingMachine-1.5\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.6\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\AddDrinkPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\Pages\AddDrinkPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\3_08.02.22\VendingMachine-1.7\VendingMachine\obj\Debug\VendingMachine.pdb
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\VendingMachine.exe.config
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\VendingMachine.exe
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\VendingMachine.pdb
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\EntityFramework.dll
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\EntityFramework.xml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\AddDrinkPage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\App.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\App.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\AddDrinkPage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\AdminPage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\MachinePage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Pages\ReportPage.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\Windows\MainWindow.baml
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.g.resources
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.exe
+\\192.168.1.1\студенты\185\Журин\VendingMachine-1.8\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\VendingMachine.exe.config
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\VendingMachine.exe
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\VendingMachine.pdb
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\EntityFramework.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\EntityFramework.SqlServer.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\EntityFramework.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\EntityFramework.SqlServer.xml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\bin\Debug\ru\EntityFramework.resources.dll
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.csproj.AssemblyReference.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\AddDrinkPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\AdminPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\AuthorizePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\DrinksPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\MachinePage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\MoneyPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\ReportPage.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Windows\MainWindow.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\App.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine_Content.g.cs
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine_MarkupCompile.lref
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\App.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\AddDrinkPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\AdminPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\AuthorizePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\DrinksPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\MachinePage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\MoneyPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Pages\ReportPage.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\Windows\MainWindow.baml
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.g.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.Properties.Resources.resources
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.csproj.GenerateResource.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+D:\__8 СЕМЕСТР\Жирнова\Case\4_11.02.22\VendingMachine-1.11\VendingMachine\obj\Debug\VendingMachine.csproj.CopyComplete

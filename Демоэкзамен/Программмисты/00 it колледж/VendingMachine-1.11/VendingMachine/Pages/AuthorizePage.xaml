@@ -1,0 +1,39 @@
+﻿<Page x:Class="VendingMachine.Pages.AuthorizePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:VendingMachine.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="AuthorizePage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Height="50" Background="#52525B">
+
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <Button x:Name="BtnBack" Grid.Column="1" Height="50" Width="50" Style="{StaticResource btnTransparent}" Click="BtnBack_Click">
+                    <Image Source="/Resources/right-arrow_24x24.png" Height="18"/>
+                </Button>
+                <TextBlock Text="Вход" FontSize="24" Foreground="#61DAFB" VerticalAlignment="Center" />
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Height="28" Margin="0,0,0,10" HorizontalAlignment="Center">
+                <TextBlock Text="Код:" Width="50" Height="20"/>
+                <TextBox x:Name="CodeTB" Width="200" KeyDown="CodeTB_KeyDown"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Grid Grid.Row="2" Background="#52525B">
+            <Button Name="BtnEnter" Grid.Row="2" Content="Войти" Height="30" Width="200" Style="{StaticResource btnBorder}" Click="BtnEnter_Click"/>
+        </Grid>
+    </Grid>
+</Page>

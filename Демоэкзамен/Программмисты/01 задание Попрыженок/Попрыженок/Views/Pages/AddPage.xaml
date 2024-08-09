@@ -1,0 +1,168 @@
+﻿<Page x:Class="Попрыженок.Views.Pages.AddPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Попрыженок.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddPage">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Comic Sans MS"/>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="FontFamily" Value="Comic Sans MS"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Margin" Value="20 0 0 0"/>
+            </Style>
+
+        </Grid.Resources>
+        <TextBlock Grid.Row="0"
+                   Text="Наименование"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="1"
+                   Text="Тип агента"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="2"
+                   Text="Приоритет"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="3"
+                   Text="Адрес"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="4"
+                   Text="ИНН"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="5"
+                   Text="КПП"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="6"
+                   Text="Имя директора"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="7"
+                   Text="Телефон"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBlock Grid.Row="8"
+                   Text="Почта"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   FontSize="20"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="0"
+                 Text="{Binding Title}"/>
+        <ComboBox Width="200"
+                  Height="30"
+                  Grid.Column="1"
+                  Grid.Row="1"
+                  HorizontalAlignment="Left"
+                  Margin="20 0 0 0"
+                  Name="TypeAgentComboBox"
+                  SelectedValue="{Binding AgentTypeID}"
+                  SelectedValuePath="ID"
+                  DisplayMemberPath="Title"
+                  />
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="2"
+                 Text="{Binding Priority}"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="3"
+                 Text="{Binding Address}"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="4"
+                 Text="{Binding INN}"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="5"
+                 Text="{Binding KPP}"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="6"
+                 Text="{Binding DirectorName}"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="7"
+                 Text="{Binding Phone}"/>
+        <TextBox Width="200"
+                 Height="30"
+                 Grid.Column="1"
+                 Grid.Row="8"
+                 Text="{Binding Email}"/>
+        <Button Grid.Row="10"
+                Grid.ColumnSpan="2"
+                Width="200"
+                Height="30"
+                Content="Сохранить"
+                Name="SaveButton"
+                FontFamily="Comic Sans MS"
+                Click="SaveButton_Click"/>
+       
+        <StackPanel
+            Orientation="Vertical"
+            Grid.Column="2"
+            Grid.RowSpan="10">
+            
+            <Image Name="PreviewImage"
+                   Source="{Binding Logo}"
+                   Width="200"
+                   Height="150"
+                   DockPanel.Dock="Top"/>
+            <Button Grid.Row="9"
+                Grid.ColumnSpan="2"
+                Width="200"
+                Height="30"
+                Content="Выбрать фото"
+                Name="SelectedPhoto"
+                FontFamily="Comic Sans MS"
+                Click="SelectedPhoto_Click"
+                Margin="0 10 0 0"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,107 @@
+﻿<Page x:Class="WpfAppTrueSkills_Recipes.Pages.PageListIngredients"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppTrueSkills_Recipes.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Список ингредиентов">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Name="LblTotalQuantity" FontSize="20">Всего наименований</Label>
+        <Label Name="LblTotalSum" HorizontalAlignment="Right" FontSize="14" VerticalAlignment="Center">Запасов в холодильнике</Label>
+
+        <DataGrid Name="DGridIngredients" Grid.Row="1" ColumnWidth="*" IsReadOnly="True" AutoGenerateColumns="False">
+            <!--<DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="{Binding PriceColor}"></Setter>
+                </Style>
+            </DataGrid.RowStyle>-->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Наименование ингредиента" Binding="{Binding Name}"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Теги">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ItemsControl ItemsSource="{Binding Tags}">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapPanel></WrapPanel>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border CornerRadius="7" Background="{Binding BackColor}" Margin="2,1">
+                                            <TextBlock Foreground="{Binding FontColor}" Text="{Binding Name, StringFormat={}#{0}}" Margin="2"></TextBlock>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Цена">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" Value="{Binding PriceColor}"></Setter>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                    <DataGridTextColumn.Binding>
+                        <MultiBinding StringFormat="{}{0:N0} руб. за {1} {2}">
+                            <Binding Path="Cost"></Binding>
+                            <Binding Path="CostForCount"></Binding>
+                            <Binding Path="Unit.Name"></Binding>
+                        </MultiBinding>
+                    </DataGridTextColumn.Binding>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="В наличии">
+                    <DataGridTextColumn.Binding>
+                        <MultiBinding StringFormat="{}{1} {0}">
+                            <Binding Path="Unit.Name"></Binding>
+                            <Binding Path="AvailableCount"></Binding>
+                        </MultiBinding>
+                    </DataGridTextColumn.Binding>
+                </DataGridTextColumn>
+                <DataGridTemplateColumn Header="Действия">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Background="{Binding PriceColor}">
+                                <TextBlock Margin="10,10,0,2">
+                                    <Hyperlink Foreground="Blue" Name="LinkEdit" Click="LinkEdit_Click">Редактировать</Hyperlink>
+                                </TextBlock>
+                                <TextBlock Margin="10,2,0,10">
+                                    <Hyperlink Foreground="Red" Name="LinkDelete" Click="LinkDelete_Click">Удалить</Hyperlink>
+                                </TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource BaseOliveButton}">
+                    <Setter Property="Width" Value="28"></Setter>
+                    <Setter Property="Margin" Value="3"></Setter>
+                </Style>
+            </StackPanel.Resources>
+            <Button Name="BtnFirstPage" Click="BtnFirstPage_Click" Content="&lt;&lt;"></Button>
+            <Button Name="BtnPreviousPage" Click="BtnPreviousPage_Click" Content="&lt;"></Button>
+            <Label Name="LblPages" VerticalAlignment="Center" FontSize="16" Margin="16,10">4/5</Label>
+            <Button Name="BtnNextPage" Click="BtnNextPage_Click" Content="&gt;"></Button>
+            <Button Name="BtnLastPage" Click="BtnLastPage_Click" Content="&gt;&gt;"></Button>
+        </StackPanel>
+
+        <StackPanel x:Name="SPanelPages" Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center"></StackPanel>
+
+        <Border x:Name="BorderPlus" MouseLeftButtonDown="BorderPlus_MouseLeftButtonDown" Padding="0" CornerRadius="15" Grid.Row="2" Width="30" Height="30" Background="{StaticResource MainPurple}" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Right">
+            <Label FontSize="30" Margin="-2,-14,0,0" FontWeight="Bold">+</Label>
+        </Border>
+    </Grid>
+</Page>

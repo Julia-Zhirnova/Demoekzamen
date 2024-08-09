@@ -1,0 +1,52 @@
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.csproj.AssemblyReference.cache
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Views\Pages\AddPage.g.cs
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Views\Pages\MainPage.g.cs
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\App.g.cs
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\App.baml
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Views\Pages\AddPage.baml
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Views\Pages\MainPage.baml
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.csproj.GenerateResource.cache
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.csproj.CopyComplete
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок_Content.g.cs
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок_MarkupCompile.cache
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок_MarkupCompile.lref
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\Попрыженок.exe.config
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\Попрыженок.exe
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\bin\Debug\Попрыженок.pdb
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.g.resources
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.Properties.Resources.resources
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.exe
+C:\Users\Администратор\Documents\Новая папка\Попрыженок\Попрыженок\obj\Debug\Попрыженок.pdb
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Views\Pages\AddPage.g.cs
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Views\Pages\MainPage.g.cs
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Views\Windows\MainWindow.g.cs
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\App.g.cs
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок_MarkupCompile.cache
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок_MarkupCompile.lref
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок.exe
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок.pdb
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок_Content.g.cs
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\Попрыженок.exe.config
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\Попрыженок.exe
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\Попрыженок.pdb
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\EntityFramework.dll
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\EntityFramework.SqlServer.dll
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\EntityFramework.xml
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\EntityFramework.SqlServer.xml
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\bin\Debug\ru\EntityFramework.resources.dll
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\App.baml
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Views\Pages\AddPage.baml
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Views\Pages\MainPage.baml
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Views\Windows\MainWindow.baml
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок.g.resources
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок.Properties.Resources.resources
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок.csproj.GenerateResource.cache
+D:\worldskills\Попрыженок\Попрыженок\Попрыженок\obj\Debug\Попрыженок.csproj.CoreCompileInputs.cache
