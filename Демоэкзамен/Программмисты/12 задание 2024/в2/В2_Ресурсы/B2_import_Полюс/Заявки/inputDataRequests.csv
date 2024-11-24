@@ -1,0 +1,6 @@
+requestID;startDate;orgTechType;orgTechModel;problemDescryption;requestStatus;completionDate;repairParts;masterID;clientID
+1;2023-06-06;Компьютер;DEXP Aquilon O286;Перестал работать;В процессе ремонта;null;;2;7
+2;2023-05-05;Компьютер;DEXP Atlas H388;Перестал работать;В процессе ремонта;null;;3;8
+3;2022-07-07;Ноутбук;MSI GF76 Katana 11UC-879XRU черный;Выключается;Готова к выдаче;2023-01-01;;3;9
+4;2023-08-02;Ноутбук;MSI Modern 15 B12M-211RU черный;Выключается;Новая заявка;null;;null;8
+5;2023-08-02;Принтер;HP LaserJet Pro M404dn;Перестала включаться;Новая заявка;null;;null;9
